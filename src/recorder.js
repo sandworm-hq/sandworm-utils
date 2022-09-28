@@ -42,7 +42,7 @@ const handleRequest = (request, response) => {
   }
 };
 
-const recordSandwormActivity = (done, onError) => {
+const recordSandwormActivityAsync = (onError, done) => {
   if (server) {
     return;
   }
@@ -66,9 +66,21 @@ const recordSandwormActivity = (done, onError) => {
       sockets.delete(socket);
     });
   });
+}
+
+const recordSandwormActivityPromise = (onError) => new Promise((resolve) => {
+  recordSandwormActivityAsync(onError, resolve);
+})
+
+const recordSandwormActivity = (onError, done) => {
+  if (done) {
+    return recordSandwormActivityAsync(onError, done);
+  }
+
+  return recordSandwormActivityPromise(onError);
 };
 
-const stopRecordingSandwormActivity = (done) => {
+const stopRecordingSandwormActivityAsync = (done) => {
   if (!server) {
     return;
   }
@@ -82,6 +94,18 @@ const stopRecordingSandwormActivity = (done) => {
     activity = [];
     done();
   });
+};
+
+const stopRecordingSandwormActivityPromise = () => new Promise((resolve) => {
+    stopRecordingSandwormActivityAsync(resolve);
+  });
+
+const stopRecordingSandwormActivity = (done) => {
+  if (done) {
+    return stopRecordingSandwormActivityAsync(done);
+  }
+
+  return stopRecordingSandwormActivityPromise();
 };
 
 const getRecordedActivity = () => activity;

@@ -21,7 +21,7 @@ const loadConfig = (appPath) => loadJsonFile(path.join(appPath, SANDWORM_CONFIG_
 const loadPermissions = (appPath) =>
   loadJsonFile(path.join(appPath, SANDWORM_PERMISSION_FILE_NAME));
 
-const loadDependencies = async (appPath) => {
+const loadDependenciesPromise = async (appPath) => {
   const manifestPath = path.join(appPath, MANIFEST_FILE_NAME);
   const npmLockfilePath = path.join(appPath, NPM_LOCKFILE_NAME);
   const yarnLockfilePath = path.join(appPath, YARN_LOCKFILE_NAME);
@@ -58,10 +58,37 @@ const loadDependencies = async (appPath) => {
   return [devDependencies, prodDependencies];
 };
 
-const writePermissions = (appPath, permissions, done) => {
+const loadDependenciesAsync = (appPath, done) => {
+  (async () => {
+    done(await loadDependenciesPromise(appPath));
+  })();
+};
+
+const loadDependencies = (appPath, done) => {
+  if (done) {
+    return loadDependenciesAsync(appPath, done);
+  }
+
+  return loadDependenciesPromise(appPath);
+};
+
+const writePermissionsAsync = (appPath, permissions, done) => {
   const outputPath = path.join(appPath, SANDWORM_PERMISSION_FILE_NAME);
   fs.writeFile(outputPath, JSON.stringify(permissions, null, 2), done);
 };
+
+const writePermissionsPromise = (appPath, permissions) =>
+  new Promise((resolve) => {
+    writePermissionsAsync(appPath, permissions, resolve);
+  });
+
+const writePermissions = (appPath, permissions, done) => {
+  if (done) {
+    return writePermissionsAsync(appPath, permissions, done);
+  }
+
+  return writePermissionsPromise(appPath, permissions);
+}
 
 module.exports = {
   loadConfig,
