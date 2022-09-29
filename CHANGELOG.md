@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.5.0...sandworm-utils-v1.6.0) (2022-09-29)
+
+
+### Features
+
+* update Sandworm to v1.3.2 ([a77c1a9](https://github.com/sandworm-hq/sandworm-utils/commit/a77c1a9b2ffc7c8958d41fdf62223624dfa2d0c1))
+
 ## [1.5.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.4.0...sandworm-utils-v1.5.0) (2022-09-29)
 
 
