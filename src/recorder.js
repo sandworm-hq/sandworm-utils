@@ -1,7 +1,7 @@
 const http = require('http');
+const {RECORDER_PORT} = require('./constants');
 
 const logger = console;
-const port = process.env.SANDWORM_INSPECTOR_PORT || 7071;
 let activity = [];
 let server;
 const sockets = new Set();
@@ -50,7 +50,7 @@ const recordSandwormActivityAsync = (onError, done) => {
   server = http.createServer((request, response) => {
     handleRequest(request, response);
   });
-  server.listen(port);
+  server.listen(RECORDER_PORT);
   server.on('error', (err) => {
     if (typeof onError === 'function') {
       onError(err);

@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const {buildDepTreeFromFiles} = require('snyk-nodejs-lockfile-parser');
+const logger = require('./logger');
 
 const SANDWORM_CONFIG_FILE_NAME = '.sandworm.config.json';
 const SANDWORM_PERMISSION_FILE_NAME = 'package-permissions.json';
@@ -16,7 +17,19 @@ const loadJsonFile = (filePath) => {
   return content;
 };
 
-const loadConfig = (appPath) => loadJsonFile(path.join(appPath, SANDWORM_CONFIG_FILE_NAME));
+const loadConfig = (appPath) => {
+  let config;
+
+  try {
+    config = loadJsonFile(path.join(appPath, SANDWORM_CONFIG_FILE_NAME));
+    if (config) {
+      logger.log('Config loaded');
+    }
+  } catch (error) {
+    logger.log('Error loading config:', error.message);
+  }
+  return config;
+};
 
 const loadPermissions = (appPath) =>
   loadJsonFile(path.join(appPath, SANDWORM_PERMISSION_FILE_NAME));

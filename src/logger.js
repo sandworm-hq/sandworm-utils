@@ -25,9 +25,21 @@ const success = (message) => {
   logWithColor(message, '\x1b[32m');
 };
 
+const logTestPluginFirstRunMessage = () => {
+  warn("It looks like this is the first time you're running Sandworm.");
+  warn(
+    "A `package-permissions.json` file has been created in your app's root directory, with the per-module permissions detected during your test suite run.",
+  );
+  warn(
+    'Please audit this file to understand why each item is required, then commit the file to your repository.',
+  );
+  warn('The next test run will validate permissions against this snapshot.');
+};
+
 module.exports = {
   log,
   warn,
   error,
   success,
+  logTestPluginFirstRunMessage,
 };
