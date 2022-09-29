@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.2.0...sandworm-utils-v1.3.0) (2022-09-29)
+
+
+### Features
+
+* add shared functionality ([6722e33](https://github.com/sandworm-hq/sandworm-utils/commit/6722e33f31930862a9b0ff8f67d4c52fb84df73b))
+
 ## [1.2.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.1.0...sandworm-utils-v1.2.0) (2022-09-28)
 
 
