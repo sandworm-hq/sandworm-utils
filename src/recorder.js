@@ -1,5 +1,5 @@
 const http = require('http');
-const {RECORDER_PORT} = require('./constants');
+const {RECORDER_PORT, INSPECTOR_PORT} = require('./constants');
 
 const logger = console;
 let activity = [];
@@ -25,6 +25,16 @@ const handleRequest = (request, response) => {
             'Access-Control-Allow-Origin': '*',
           });
           response.end();
+
+          const req = http.request({
+            port: INSPECTOR_PORT,
+            host: '127.0.0.1',
+            path: '/ingest',
+            method: 'POST',
+            headers: {'content-type': 'application/json'},
+          });
+          req.on('error', () => {});
+          req.end(stringBody);
         } catch (error) {
           logger.error(error);
           response.writeHead(500, {
@@ -66,11 +76,12 @@ const recordSandwormActivityAsync = (onError, done) => {
       sockets.delete(socket);
     });
   });
-}
+};
 
-const recordSandwormActivityPromise = (onError) => new Promise((resolve) => {
-  recordSandwormActivityAsync(onError, resolve);
-})
+const recordSandwormActivityPromise = (onError) =>
+  new Promise((resolve) => {
+    recordSandwormActivityAsync(onError, resolve);
+  });
 
 const recordSandwormActivity = (onError, done) => {
   if (done) {
@@ -96,7 +107,8 @@ const stopRecordingSandwormActivityAsync = (done) => {
   });
 };
 
-const stopRecordingSandwormActivityPromise = () => new Promise((resolve) => {
+const stopRecordingSandwormActivityPromise = () =>
+  new Promise((resolve) => {
     stopRecordingSandwormActivityAsync(resolve);
   });
 
