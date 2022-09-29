@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.4.0...sandworm-utils-v1.5.0) (2022-09-29)
+
+
+### Features
+
+* forward events to Inspector ([1862309](https://github.com/sandworm-hq/sandworm-utils/commit/1862309f675214a9f2321ec1f2f4f5850c2bab87))
+
+
+### Bug Fixes
+
+* `loadSandworm` config option name ([de05544](https://github.com/sandworm-hq/sandworm-utils/commit/de05544792bb84865fc0e26c032d778b79d21a3f))
+
 ## [1.4.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.3.0...sandworm-utils-v1.4.0) (2022-09-29)
 
 
