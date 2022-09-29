@@ -3,7 +3,7 @@ const {loadConfig} = require('./files');
 const logger = require('./logger');
 const {RECORDER_PORT} = require('./constants');
 
-const loadSandworm = ({appPath, configOption, trustedModules}) => {
+const loadSandworm = ({appPath, config: configOption, trustedModules}) => {
   const config = configOption || loadConfig(appPath);
 
   // Load Sandworm
