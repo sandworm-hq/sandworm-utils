@@ -1,6 +1,6 @@
 {
   "name": "sandworm-utils",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Various utilities for Sandworm modules 🪱",
   "main": "src/index.js",
   "scripts": {

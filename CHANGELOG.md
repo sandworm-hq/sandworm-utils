@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.1](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.8.0...sandworm-utils-v1.8.1) (2022-10-08)
+
+
+### Bug Fixes
+
+* `loadDependencies` returns unique items ([77bf47a](https://github.com/sandworm-hq/sandworm-utils/commit/77bf47a83b8701437723fc6de8d0dbe29423fba5))
+
 ## [1.8.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.7.0...sandworm-utils-v1.8.0) (2022-10-08)
 
 
