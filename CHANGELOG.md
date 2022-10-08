@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.6.0...sandworm-utils-v1.7.0) (2022-10-08)
+
+
+### Features
+
+* `loadDependencies` now returns package tree ([d31c542](https://github.com/sandworm-hq/sandworm-utils/commit/d31c54285b45804fe48924f17c31a557cfde2b86))
+
 ## [1.6.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.5.0...sandworm-utils-v1.6.0) (2022-09-29)
 
 
