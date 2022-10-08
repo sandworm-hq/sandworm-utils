@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.7.0...sandworm-utils-v1.8.0) (2022-10-08)
+
+
+### Features
+
+* `loadDependencies` arg to exclude dev deps ([5624aed](https://github.com/sandworm-hq/sandworm-utils/commit/5624aed994428a7569482b8c993e60b8dffc89de))
+
 ## [1.7.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.6.0...sandworm-utils-v1.7.0) (2022-10-08)
 
 
