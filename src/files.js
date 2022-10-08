@@ -68,7 +68,7 @@ const loadDependenciesPromise = async (appPath) => {
   };
 
   parseDeps(packageTree.dependencies);
-  return [devDependencies, prodDependencies];
+  return {devDependencies, prodDependencies, packageTree};
 };
 
 const loadDependenciesAsync = (appPath, done) => {
