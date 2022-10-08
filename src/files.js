@@ -54,8 +54,8 @@ const loadDependenciesPromise = async (appPath, includeDevDependencies = true) =
     lockfilePath,
     includeDevDependencies,
   );
-  const devDependencies = [];
-  const prodDependencies = [];
+  const devDependencies = new Set();
+  const prodDependencies = new Set();
 
   const parseDeps = (dependencies) => {
     if (!dependencies) {
@@ -64,16 +64,20 @@ const loadDependenciesPromise = async (appPath, includeDevDependencies = true) =
     Object.keys(dependencies).forEach((name) => {
       const lib = dependencies[name];
       if (lib.labels && lib.labels.scope === 'dev') {
-        devDependencies.push(name);
+        devDependencies.add(name);
       } else if (lib.labels && lib.labels.scope === 'prod') {
-        prodDependencies.push(name);
+        prodDependencies.add(name);
       }
       parseDeps(lib.dependencies);
     });
   };
 
   parseDeps(packageTree.dependencies);
-  return {devDependencies, prodDependencies, packageTree};
+  return {
+    devDependencies: [...devDependencies],
+    prodDependencies: [...prodDependencies],
+    packageTree,
+  };
 };
 
 const loadDependenciesAsync = (appPath, includeDevDependencies = true, done = undefined) => {
@@ -106,7 +110,7 @@ const writePermissions = (appPath, permissions, done) => {
   }
 
   return writePermissionsPromise(appPath, permissions);
-}
+};
 
 module.exports = {
   loadConfig,
