@@ -34,7 +34,7 @@ const loadConfig = (appPath) => {
 const loadPermissions = (appPath) =>
   loadJsonFile(path.join(appPath, SANDWORM_PERMISSION_FILE_NAME));
 
-const loadDependenciesPromise = async (appPath) => {
+const loadDependenciesPromise = async (appPath, includeDevDependencies = true) => {
   const manifestPath = path.join(appPath, MANIFEST_FILE_NAME);
   const npmLockfilePath = path.join(appPath, NPM_LOCKFILE_NAME);
   const yarnLockfilePath = path.join(appPath, YARN_LOCKFILE_NAME);
@@ -48,7 +48,12 @@ const loadDependenciesPromise = async (appPath) => {
     throw new Error('Sandworm: Could not locate project lockfile.');
   }
 
-  const packageTree = await buildDepTreeFromFiles(appPath, manifestPath, lockfilePath, true);
+  const packageTree = await buildDepTreeFromFiles(
+    appPath,
+    manifestPath,
+    lockfilePath,
+    includeDevDependencies,
+  );
   const devDependencies = [];
   const prodDependencies = [];
 
@@ -71,18 +76,18 @@ const loadDependenciesPromise = async (appPath) => {
   return {devDependencies, prodDependencies, packageTree};
 };
 
-const loadDependenciesAsync = (appPath, done) => {
+const loadDependenciesAsync = (appPath, includeDevDependencies = true, done = undefined) => {
   (async () => {
-    done(await loadDependenciesPromise(appPath));
+    done(await loadDependenciesPromise(appPath, includeDevDependencies));
   })();
 };
 
-const loadDependencies = (appPath, done) => {
+const loadDependencies = (appPath, includeDevDependencies = true, done = undefined) => {
   if (done) {
-    return loadDependenciesAsync(appPath, done);
+    return loadDependenciesAsync(appPath, includeDevDependencies, done);
   }
 
-  return loadDependenciesPromise(appPath);
+  return loadDependenciesPromise(appPath, includeDevDependencies);
 };
 
 const writePermissionsAsync = (appPath, permissions, done) => {
