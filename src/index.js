@@ -3,6 +3,7 @@ const logger = require('./logger');
 const permissions = require('./permissions');
 const recorder = require('./recorder');
 const sandworm = require('./sandworm');
+const graph = require('./graph');
 
 module.exports = {
   files,
@@ -10,4 +11,5 @@ module.exports = {
   permissions,
   recorder,
   sandworm,
+  graph,
 };
