@@ -12,7 +12,6 @@
     "url": "git+https://github.com/sandworm-hq/sandworm-utils.git"
   },
   "keywords": [
-    "mocha",
     "security",
     "audit",
     "dependencies",
@@ -23,8 +22,12 @@
   "license": "MIT",
   "homepage": "https://sandworm.dev",
   "dependencies": {
+    "@pnpm/lockfile-file": "6.0.2",
+    "@pnpm/logger": "5.0.0",
+    "@yarnpkg/lockfile": "1.1.0",
+    "@yarnpkg/parsers": "3.0.0-rc.31",
     "sandworm": "1.3.2",
-    "snyk-nodejs-lockfile-parser": "1.43.1"
+    "semver": "7.3.8"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
