@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.8.1...sandworm-utils-v1.9.0) (2022-11-28)
+
+
+### Features
+
+* graph generation ([f6c9f4e](https://github.com/sandworm-hq/sandworm-utils/commit/f6c9f4e7cf4f7c2b0a219c2cc8f2324a0c92975e))
+
 ## [1.8.1](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.8.0...sandworm-utils-v1.8.1) (2022-10-08)
 
 
