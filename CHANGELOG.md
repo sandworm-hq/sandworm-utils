@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.9.0...sandworm-utils-v1.10.0) (2022-12-04)
+
+
+### Features
+
+* more standard graph node properties ([a649f79](https://github.com/sandworm-hq/sandworm-utils/commit/a649f79705ff123101866f5fc83376b21bd01461))
+
 ## [1.9.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.8.1...sandworm-utils-v1.9.0) (2022-11-28)
 
 
