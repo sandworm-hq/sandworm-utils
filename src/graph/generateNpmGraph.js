@@ -21,23 +21,14 @@ const generateNpmGraph = ({packages}) => {
       version,
       resolved,
       integrity,
-      dev,
-      optional,
-      license,
-      engines,
     } = packageData;
     const name = originalName || packageNameFromPath(packageLocation);
 
     const newPackage = makeNode({
       name,
       version,
-      relativePath: packageLocation,
       ...(resolved && {resolved}),
       ...(integrity && {integrity}),
-      ...(license && {license}),
-      ...(engines && {engines}),
-      ...(dev && {dev}),
-      ...(optional && {optional}),
     });
 
     if (packageLocation === '') {

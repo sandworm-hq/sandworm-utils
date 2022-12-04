@@ -36,8 +36,6 @@ const generatePnpmGraph = ({data, manifest}) => {
       dev,
       // peerDependenciesMeta
       // transitivePeerDependencies,
-      // engines,
-      // hasBin,
     } = packageData;
     const {name, version} = parsePath(id);
     const newPackage = makeNode({
