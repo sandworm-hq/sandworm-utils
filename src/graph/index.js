@@ -1,4 +1,4 @@
-const {loadLockfile, loadManifest} = require('../files');
+const {loadLockfile, loadManifest, loadInstalledPackages} = require('../files');
 const generateNpmGraph = require('./generateNpmGraph');
 const generatePnpmGraph = require('./generatePnpmGraph');
 const generateYarnGraph = require('./generateYarnGraph');
@@ -28,11 +28,14 @@ const generateGraphPromise = async (appPath) => {
     });
   }
 
+  const installedPackages = await loadInstalledPackages(appPath);
+
   const {root, allPackages} = graph;
+  const processedRoot = postProcessGraph({root, installedPackages});
 
   return {
     root: {
-      ...(postProcessGraph(root) || {}),
+      ...(processedRoot || {}),
       meta: {lockfileVersion: lockfile.lockfileVersion, packageManager: lockfile.manager},
     },
     all: allPackages,
@@ -49,7 +52,7 @@ const generateGraphAsync = (appPath, done = () => {}) => {
 }
 
 const generateGraph = (appPath, done) => {
-  if (done) {
+  if (typeof done === 'function') {
     return generateGraphAsync(appPath, done);
   }
 

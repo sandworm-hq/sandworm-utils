@@ -103,7 +103,13 @@ const processPlaceholders = ({newPackage, placeholders}) => {
     });
 };
 
-const postProcessGraph = (root, processedNodes = [], flags = {}, depth = 0) => {
+const postProcessGraph = ({
+  root,
+  processedNodes = [],
+  flags = {},
+  depth = 0,
+  installedPackages = [],
+}) => {
   if (!root) {
     return root;
   }
@@ -132,6 +138,21 @@ const postProcessGraph = (root, processedNodes = [], flags = {}, depth = 0) => {
   if (!processedNodes.includes(root)) {
     // eslint-disable-next-line no-param-reassign
     processedNodes.push(root);
+
+    const installedPackage = installedPackages.find(
+      ({name, version}) => root.name === name && root.version === version,
+    );
+
+    if (installedPackage) {
+      Object.assign(root, {
+        relativePath: installedPackage.relativePath,
+        ...(installedPackage.engines && {engines: installedPackage.engines}),
+        ...(installedPackage.license && {license: installedPackage.license}),
+      });
+    } else {
+      console.warn(`Could not find installed: ${root.name}@${root.version}`);
+    }
+
     [
       ...Object.values(root.dependencies || {}).map((dep) => ['prod', dep]),
       ...Object.values(root.devDependencies || {}).map((dep) => ['dev', dep]),
@@ -139,18 +160,19 @@ const postProcessGraph = (root, processedNodes = [], flags = {}, depth = 0) => {
       ...Object.values(root.peerDependencies || {}).map((dep) => ['peer', dep]),
       ...Object.values(root.bundledDependencies || {}).map((dep) => ['bundled', dep]),
     ].forEach(([rel, dep]) =>
-      postProcessGraph(
-        dep,
+      postProcessGraph({
+        root: dep,
         processedNodes,
-        {
+        flags: {
           ...(flags.prod && {prod: true}),
           ...((flags.dev || rel === 'dev') && {dev: true}),
           ...((flags.optional || rel === 'optional') && {optional: true}),
           ...((flags.peer || rel === 'peer') && {peer: true}),
           ...((flags.bundled || rel === 'bundled') && {bundled: true}),
         },
-        depth + 1,
-      ),
+        depth: depth + 1,
+        installedPackages,
+      }),
     );
   }
 
