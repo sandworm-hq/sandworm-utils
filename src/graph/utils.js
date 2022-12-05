@@ -157,7 +157,11 @@ const postProcessGraph = ({
         //     {"type": "Apache-2.0", "url": "..."}
         //   ]
         // }
-        license = `(${installedPackage.licenses.map(({type}) => type).join(' OR ')})`;
+        if (installedPackage.licenses.length === 1) {
+          license = installedPackage.licenses[0].type;
+        } else {
+          license = `(${installedPackage.licenses.map(({type}) => type).join(' OR ')})`;
+        }
       } else if (typeof installedPackage.license === 'object') {
         // Some older packages use an object
         // {
