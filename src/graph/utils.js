@@ -144,10 +144,35 @@ const postProcessGraph = ({
     );
 
     if (installedPackage) {
+      let license;
+
+      if (typeof installedPackage.license === 'string') {
+        // Standard SPDX field
+        license = installedPackage.license;
+      } else if (Array.isArray(installedPackage.licenses)) {
+        // Some older packages use an array
+        //  {
+        //   "licenses" : [
+        //     {"type": "MIT", "url": "..."},
+        //     {"type": "Apache-2.0", "url": "..."}
+        //   ]
+        // }
+        license = `(${installedPackage.licenses.map(({type}) => type).join(' OR ')})`;
+      } else if (typeof installedPackage.license === 'object') {
+        // Some older packages use an object
+        // {
+        //   "license" : {
+        //     "type" : "ISC",
+        //     "url" : "..."
+        //   }
+        // }
+        license = installedPackage.license.type;
+      }
+
       Object.assign(root, {
         relativePath: installedPackage.relativePath,
         ...(installedPackage.engines && {engines: installedPackage.engines}),
-        ...(installedPackage.license && {license: installedPackage.license}),
+        ...(license && {license}),
       });
     } else {
       console.warn(`Could not find installed: ${root.name}@${root.version}`);
