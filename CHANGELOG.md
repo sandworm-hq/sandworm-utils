@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.2](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.10.1...sandworm-utils-v1.10.2) (2022-12-05)
+
+
+### Bug Fixes
+
+* better deprecated manifest license handling ([df50b52](https://github.com/sandworm-hq/sandworm-utils/commit/df50b52f252d25c090b0664a23791b611803f35a))
+
 ## [1.10.1](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.10.0...sandworm-utils-v1.10.1) (2022-12-05)
 
 
