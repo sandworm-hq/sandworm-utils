@@ -1,0 +1,4823 @@
+[
+  {
+    "name": "BSD Zero Clause License",
+    "licenseId": "0BSD",
+    "urls": [
+      "https://spdx.org/licenses/0BSD.json",
+      "http://landley.net/toybox/license.html",
+      "https://opensource.org/licenses/0BSD"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576c948d6cca83a54c00268a"
+  },
+  {
+    "name": "Attribution Assurance License",
+    "licenseId": "AAL",
+    "urls": [
+      "https://spdx.org/licenses/AAL.json",
+      "https://opensource.org/licenses/attribution"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "539ff6e68634f2f94200002a"
+  },
+  {
+    "name": "Abstyles License",
+    "licenseId": "Abstyles",
+    "urls": [
+      "https://spdx.org/licenses/Abstyles.json",
+      "https://fedoraproject.org/wiki/Licensing/Abstyles"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ac8ca6cca83a54c002492"
+  },
+  {
+    "name": "Adobe Systems Incorporated Source Code License Agreement",
+    "licenseId": "Adobe-2006",
+    "urls": [
+      "https://spdx.org/licenses/Adobe-2006.json",
+      "https://fedoraproject.org/wiki/Licensing/AdobeLicense"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576accd26cca83a54c0024a8"
+  },
+  {
+    "name": "Adobe Glyph List License",
+    "licenseId": "Adobe-Glyph",
+    "urls": [
+      "https://spdx.org/licenses/Adobe-Glyph.json",
+      "https://fedoraproject.org/wiki/Licensing/MIT#AdobeGlyph"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576acb456cca83a54c00249c"
+  },
+  {
+    "name": "Amazon Digital Services License",
+    "licenseId": "ADSL",
+    "urls": [
+      "https://spdx.org/licenses/ADSL.json",
+      "https://fedoraproject.org/wiki/Licensing/AmazonDigitalServicesLicense"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ace536cca83a54c0024b4"
+  },
+  {
+    "name": "Academic Free License v1.1",
+    "licenseId": "AFL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/AFL-1.1.json",
+      "http://opensource.linux-mirror.org/licenses/afl-1.1.txt",
+      "http://wayback.archive.org/web/20021004124254/http://www.opensource.org/licenses/academic.php"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Academic Free License v1.2",
+    "licenseId": "AFL-1.2",
+    "urls": [
+      "https://spdx.org/licenses/AFL-1.2.json",
+      "http://opensource.linux-mirror.org/licenses/afl-1.2.txt",
+      "http://wayback.archive.org/web/20021204204652/http://www.opensource.org/licenses/academic.php"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Academic Free License v2.0",
+    "licenseId": "AFL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/AFL-2.0.json",
+      "http://wayback.archive.org/web/20060924134533/http://www.opensource.org/licenses/afl-2.0.txt"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Academic Free License v2.1",
+    "licenseId": "AFL-2.1",
+    "urls": [
+      "https://spdx.org/licenses/AFL-2.1.json",
+      "http://opensource.linux-mirror.org/licenses/afl-2.1.txt"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "571cea113368aff90b000963"
+  },
+  {
+    "name": "Academic Free License v3.0",
+    "licenseId": "AFL-3.0",
+    "urls": [
+      "https://spdx.org/licenses/AFL-3.0.json",
+      "http://www.rosenlaw.com/AFL3.0.htm",
+      "https://opensource.org/licenses/afl-3.0"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "52e57841cac23edf35000021"
+  },
+  {
+    "name": "Afmparse License",
+    "licenseId": "Afmparse",
+    "urls": [
+      "https://spdx.org/licenses/Afmparse.json",
+      "https://fedoraproject.org/wiki/Licensing/Afmparse"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576acd456cca83a54c0024ad"
+  },
+  {
+    "name": "Affero General Public License v1.0",
+    "licenseId": "AGPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/AGPL-1.0.json",
+      "http://www.affero.org/oagpl.html"
+    ],
+    "category": "Network Protective"
+  },
+  {
+    "name": "Affero General Public License v1.0 only",
+    "licenseId": "AGPL-1.0-only",
+    "urls": [
+      "https://spdx.org/licenses/AGPL-1.0-only.json",
+      "http://www.affero.org/oagpl.html"
+    ],
+    "category": "Network Protective"
+  },
+  {
+    "name": "Affero General Public License v1.0 or later",
+    "licenseId": "AGPL-1.0-or-later",
+    "urls": [
+      "https://spdx.org/licenses/AGPL-1.0-or-later.json",
+      "http://www.affero.org/oagpl.html"
+    ],
+    "category": "Network Protective"
+  },
+  {
+    "name": "GNU Affero General Public License v3.0",
+    "licenseId": "AGPL-3.0",
+    "urls": [
+      "https://spdx.org/licenses/AGPL-3.0.json",
+      "https://www.gnu.org/licenses/agpl.txt",
+      "https://opensource.org/licenses/AGPL-3.0"
+    ],
+    "category": "Network Protective",
+    "tldrLegalId": "52e58cac81519e003b0000df"
+  },
+  {
+    "name": "GNU Affero General Public License v3.0 only",
+    "licenseId": "AGPL-3.0-only",
+    "urls": [
+      "https://spdx.org/licenses/AGPL-3.0-only.json",
+      "https://www.gnu.org/licenses/agpl.txt",
+      "https://opensource.org/licenses/AGPL-3.0"
+    ],
+    "category": "Network Protective",
+    "tldrLegalId": "52e58cac81519e003b0000df"
+  },
+  {
+    "name": "GNU Affero General Public License v3.0 or later",
+    "licenseId": "AGPL-3.0-or-later",
+    "urls": [
+      "https://spdx.org/licenses/AGPL-3.0-or-later.json",
+      "https://www.gnu.org/licenses/agpl.txt",
+      "https://opensource.org/licenses/AGPL-3.0"
+    ],
+    "category": "Network Protective",
+    "tldrLegalId": "52e58cac81519e003b0000df"
+  },
+  {
+    "name": "Aladdin Free Public License",
+    "licenseId": "Aladdin",
+    "urls": [
+      "https://spdx.org/licenses/Aladdin.json",
+      "http://pages.cs.wisc.edu/~ghost/doc/AFPL/6.01/Public.htm"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "532b52275d0187c662000038"
+  },
+  {
+    "name": "AMD's plpa_map.c License",
+    "licenseId": "AMDPLPA",
+    "urls": [
+      "https://spdx.org/licenses/AMDPLPA.json",
+      "https://fedoraproject.org/wiki/Licensing/AMD_plpa_map_License"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Apple MIT License",
+    "licenseId": "AML",
+    "urls": [
+      "https://spdx.org/licenses/AML.json",
+      "https://fedoraproject.org/wiki/Licensing/Apple_MIT_License"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "559fd68447cdaa075e0002e9"
+  },
+  {
+    "name": "Academy of Motion Picture Arts and Sciences BSD",
+    "licenseId": "AMPAS",
+    "urls": [
+      "https://spdx.org/licenses/AMPAS.json",
+      "https://fedoraproject.org/wiki/Licensing/BSD#AMPASBSD"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576acab06cca83a54c002497"
+  },
+  {
+    "name": "ANTLR Software Rights Notice",
+    "licenseId": "ANTLR-PD",
+    "urls": [
+      "https://spdx.org/licenses/ANTLR-PD.json",
+      "http://www.antlr2.org/license.html"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "539ff39a8634f2f94200001f"
+  },
+  {
+    "name": "ANTLR Software Rights Notice with license fallback",
+    "licenseId": "ANTLR-PD-fallback",
+    "urls": [
+      "https://spdx.org/licenses/ANTLR-PD-fallback.json",
+      "http://www.antlr2.org/license.html"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "539ff39a8634f2f94200001f"
+  },
+  {
+    "name": "Apache License 1.0",
+    "licenseId": "Apache-1.0",
+    "urls": [
+      "https://spdx.org/licenses/Apache-1.0.json",
+      "http://www.apache.org/licenses/LICENSE-1.0"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "559ec47447cdaa075e00023f"
+  },
+  {
+    "name": "Apache License 1.1",
+    "licenseId": "Apache-1.1",
+    "urls": [
+      "https://spdx.org/licenses/Apache-1.1.json",
+      "http://apache.org/licenses/LICENSE-1.1",
+      "https://opensource.org/licenses/Apache-1.1"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "559ec2ca47cdaa075e000230"
+  },
+  {
+    "name": "Apache License 2.0",
+    "licenseId": "Apache-2.0",
+    "urls": [
+      "https://spdx.org/licenses/Apache-2.0.json",
+      "https://www.apache.org/licenses/LICENSE-2.0",
+      "https://opensource.org/licenses/Apache-2.0"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "52931b330856dee25d000009"
+  },
+  {
+    "name": "Adobe Postscript AFM License",
+    "licenseId": "APAFML",
+    "urls": [
+      "https://spdx.org/licenses/APAFML.json",
+      "https://fedoraproject.org/wiki/Licensing/AdobePostscriptAFM"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576acc596cca83a54c0024a3"
+  },
+  {
+    "name": "Adaptive Public License 1.0",
+    "licenseId": "APL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/APL-1.0.json",
+      "https://opensource.org/licenses/APL-1.0"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "539f9f35b8c2c06045000153"
+  },
+  {
+    "name": "App::s2p License",
+    "licenseId": "App-s2p",
+    "urls": [
+      "https://spdx.org/licenses/App-s2p.json",
+      "https://fedoraproject.org/wiki/Licensing/App-s2p"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Apple Public Source License 1.0",
+    "licenseId": "APSL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/APSL-1.0.json",
+      "https://fedoraproject.org/wiki/Licensing/Apple_Public_Source_License_1.0"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Apple Public Source License 1.1",
+    "licenseId": "APSL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/APSL-1.1.json",
+      "http://www.opensource.apple.com/source/IOSerialFamily/IOSerialFamily-7/APPLE_LICENSE"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "Apple Public Source License 1.2",
+    "licenseId": "APSL-1.2",
+    "urls": [
+      "https://spdx.org/licenses/APSL-1.2.json",
+      "http://www.samurajdata.se/opensource/mirror/licenses/apsl.php"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "Apple Public Source License 2.0",
+    "licenseId": "APSL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/APSL-2.0.json",
+      "http://www.opensource.apple.com/license/apsl/"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "52e5836d81519e003b000057"
+  },
+  {
+    "name": "Arphic Public License",
+    "licenseId": "Arphic-1999",
+    "urls": [
+      "https://spdx.org/licenses/Arphic-1999.json",
+      "http://ftp.gnu.org/gnu/non-gnu/chinese-fonts-truetype/LICENSE"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Artistic License 1.0",
+    "licenseId": "Artistic-1.0",
+    "urls": [
+      "https://spdx.org/licenses/Artistic-1.0.json",
+      "https://opensource.org/licenses/Artistic-1.0"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "5524699a4f296fbc2d0001f5"
+  },
+  {
+    "name": "Artistic License 1.0 w/clause 8",
+    "licenseId": "Artistic-1.0-cl8",
+    "urls": [
+      "https://spdx.org/licenses/Artistic-1.0-cl8.json",
+      "https://opensource.org/licenses/Artistic-1.0"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "Artistic License 1.0 (Perl)",
+    "licenseId": "Artistic-1.0-Perl",
+    "urls": [
+      "https://spdx.org/licenses/Artistic-1.0-Perl.json",
+      "http://dev.perl.org/licenses/artistic.html"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "Artistic License 2.0",
+    "licenseId": "Artistic-2.0",
+    "urls": [
+      "https://spdx.org/licenses/Artistic-2.0.json",
+      "http://www.perlfoundation.org/artistic_license_2_0",
+      "https://www.perlfoundation.org/artistic-license-20.html",
+      "https://opensource.org/licenses/artistic-license-2.0"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "52e581f181519e003b000008"
+  },
+  {
+    "name": "Baekmuk License",
+    "licenseId": "Baekmuk",
+    "urls": [
+      "https://spdx.org/licenses/Baekmuk.json",
+      "https://fedoraproject.org/wiki/Licensing:Baekmuk?rd=Licensing/Baekmuk"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Bahyph License",
+    "licenseId": "Bahyph",
+    "urls": [
+      "https://spdx.org/licenses/Bahyph.json",
+      "https://fedoraproject.org/wiki/Licensing/Bahyph"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576acfea6cca83a54c0024be"
+  },
+  {
+    "name": "Barr License",
+    "licenseId": "Barr",
+    "urls": [
+      "https://spdx.org/licenses/Barr.json",
+      "https://fedoraproject.org/wiki/Licensing/Barr"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ad0526cca83a54c0024c3"
+  },
+  {
+    "name": "Beerware License",
+    "licenseId": "Beerware",
+    "urls": [
+      "https://spdx.org/licenses/Beerware.json",
+      "https://fedoraproject.org/wiki/Licensing/Beerware",
+      "https://people.freebsd.org/~phk/"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "52e58b6881519e003b0000aa"
+  },
+  {
+    "name": "Bitstream Vera Font License",
+    "licenseId": "Bitstream-Vera",
+    "urls": [
+      "https://spdx.org/licenses/Bitstream-Vera.json",
+      "https://web.archive.org/web/20080207013128/http://www.gnome.org/fonts/",
+      "https://docubrain.com/sites/default/files/licenses/bitstream-vera.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "BitTorrent Open Source License v1.0",
+    "licenseId": "BitTorrent-1.0",
+    "urls": [
+      "https://spdx.org/licenses/BitTorrent-1.0.json",
+      "http://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/licenses/BitTorrent?r1=1.1&r2=1.1.1.1&diff_format=s"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "BitTorrent Open Source License v1.1",
+    "licenseId": "BitTorrent-1.1",
+    "urls": [
+      "https://spdx.org/licenses/BitTorrent-1.1.json",
+      "http://directory.fsf.org/wiki/License:BitTorrentOSL1.1"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a26fc1763c784c6000010a"
+  },
+  {
+    "name": "SQLite Blessing",
+    "licenseId": "blessing",
+    "urls": [
+      "https://spdx.org/licenses/blessing.json",
+      "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9",
+      "https://sqlite.org/src/artifact/df5091916dbb40e6"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Blue Oak Model License 1.0.0",
+    "licenseId": "BlueOak-1.0.0",
+    "urls": [
+      "https://spdx.org/licenses/BlueOak-1.0.0.json",
+      "https://blueoakcouncil.org/license/1.0.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Borceux license",
+    "licenseId": "Borceux",
+    "urls": [
+      "https://spdx.org/licenses/Borceux.json",
+      "https://fedoraproject.org/wiki/Licensing/Borceux"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ad0986cca83a54c0024c8"
+  },
+  {
+    "name": "BSD 1-Clause License",
+    "licenseId": "BSD-1-Clause",
+    "urls": [
+      "https://spdx.org/licenses/BSD-1-Clause.json",
+      "https://svnweb.freebsd.org/base/head/include/ifaddrs.h?revision=326823"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "BSD 2-Clause \"Simplified\" License",
+    "licenseId": "BSD-2-Clause",
+    "urls": [
+      "https://spdx.org/licenses/BSD-2-Clause.json",
+      "https://opensource.org/licenses/BSD-2-Clause"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "52c868f09f62d56435000048"
+  },
+  {
+    "name": "BSD 2-Clause FreeBSD License",
+    "licenseId": "BSD-2-Clause-FreeBSD",
+    "urls": [
+      "https://spdx.org/licenses/BSD-2-Clause-FreeBSD.json",
+      "http://www.freebsd.org/copyright/freebsd-license.html"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "52c868f09f62d56435000048"
+  },
+  {
+    "name": "BSD 2-Clause NetBSD License",
+    "licenseId": "BSD-2-Clause-NetBSD",
+    "urls": [
+      "https://spdx.org/licenses/BSD-2-Clause-NetBSD.json",
+      "http://www.netbsd.org/about/redistribution.html#default"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "BSD 2-Clause Plus Patent License",
+    "licenseId": "BSD-2-Clause-Patent",
+    "urls": [
+      "https://spdx.org/licenses/BSD-2-Clause-Patent.json",
+      "https://opensource.org/licenses/BSDplusPatent"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "BSD 2-Clause with views sentence",
+    "licenseId": "BSD-2-Clause-Views",
+    "urls": [
+      "https://spdx.org/licenses/BSD-2-Clause-Views.json",
+      "http://www.freebsd.org/copyright/freebsd-license.html",
+      "https://people.freebsd.org/~ivoras/wine/patch-wine-nvidia.sh",
+      "https://github.com/protegeproject/protege/blob/master/license.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "licenseId": "BSD-3-Clause",
+    "urls": [
+      "https://spdx.org/licenses/BSD-3-Clause.json",
+      "https://opensource.org/licenses/BSD-3-Clause",
+      "https://www.eclipse.org/org/documents/edl-v10.php"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "52c869359f62d56435000055"
+  },
+  {
+    "name": "BSD with attribution",
+    "licenseId": "BSD-3-Clause-Attribution",
+    "urls": [
+      "https://spdx.org/licenses/BSD-3-Clause-Attribution.json",
+      "https://fedoraproject.org/wiki/Licensing/BSD_with_Attribution"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "BSD 3-Clause Clear License",
+    "licenseId": "BSD-3-Clause-Clear",
+    "urls": [
+      "https://spdx.org/licenses/BSD-3-Clause-Clear.json",
+      "http://labs.metacarta.com/license-explanation.html#license"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Lawrence Berkeley National Labs BSD variant license",
+    "licenseId": "BSD-3-Clause-LBNL",
+    "urls": [
+      "https://spdx.org/licenses/BSD-3-Clause-LBNL.json",
+      "https://fedoraproject.org/wiki/Licensing/LBNLBSD"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "BSD 3-Clause Modification",
+    "licenseId": "BSD-3-Clause-Modification",
+    "urls": [
+      "https://spdx.org/licenses/BSD-3-Clause-Modification.json",
+      "https://fedoraproject.org/wiki/Licensing:BSD#Modification_Variant"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "BSD 3-Clause No Military License",
+    "licenseId": "BSD-3-Clause-No-Military-License",
+    "urls": [
+      "https://spdx.org/licenses/BSD-3-Clause-No-Military-License.json",
+      "https://gitlab.syncad.com/hive/dhive/-/blob/master/LICENSE",
+      "https://github.com/greymass/swift-eosio/blob/master/LICENSE"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "BSD 3-Clause No Nuclear License",
+    "licenseId": "BSD-3-Clause-No-Nuclear-License",
+    "urls": [
+      "https://spdx.org/licenses/BSD-3-Clause-No-Nuclear-License.json",
+      "http://download.oracle.com/otn-pub/java/licenses/bsd.txt?AuthParam=1467140197_43d516ce1776bd08a58235a7785be1cc"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "BSD 3-Clause No Nuclear License 2014",
+    "licenseId": "BSD-3-Clause-No-Nuclear-License-2014",
+    "urls": [
+      "https://spdx.org/licenses/BSD-3-Clause-No-Nuclear-License-2014.json",
+      "https://java.net/projects/javaeetutorial/pages/BerkeleyLicense"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "BSD 3-Clause No Nuclear Warranty",
+    "licenseId": "BSD-3-Clause-No-Nuclear-Warranty",
+    "urls": [
+      "https://spdx.org/licenses/BSD-3-Clause-No-Nuclear-Warranty.json",
+      "https://jogamp.org/git/?p=gluegen.git;a=blob_plain;f=LICENSE.txt"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "BSD 3-Clause Open MPI variant",
+    "licenseId": "BSD-3-Clause-Open-MPI",
+    "urls": [
+      "https://spdx.org/licenses/BSD-3-Clause-Open-MPI.json",
+      "https://www.open-mpi.org/community/license.php",
+      "http://www.netlib.org/lapack/LICENSE.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "BSD 4-Clause \"Original\" or \"Old\" License",
+    "licenseId": "BSD-4-Clause",
+    "urls": [
+      "https://spdx.org/licenses/BSD-4-Clause.json",
+      "http://directory.fsf.org/wiki/License:BSD_4Clause"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "55ca138a00eb7076210002fe"
+  },
+  {
+    "name": "BSD 4 Clause Shortened",
+    "licenseId": "BSD-4-Clause-Shortened",
+    "urls": [
+      "https://spdx.org/licenses/BSD-4-Clause-Shortened.json",
+      "https://metadata.ftp-master.debian.org/changelogs//main/a/arpwatch/arpwatch_2.1a15-7_copyright"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "BSD-4-Clause (University of California-Specific)",
+    "licenseId": "BSD-4-Clause-UC",
+    "urls": [
+      "https://spdx.org/licenses/BSD-4-Clause-UC.json",
+      "http://www.freebsd.org/copyright/license.html"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "BSD Protection License",
+    "licenseId": "BSD-Protection",
+    "urls": [
+      "https://spdx.org/licenses/BSD-Protection.json",
+      "https://fedoraproject.org/wiki/Licensing/BSD_Protection_License"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "BSD Source Code Attribution",
+    "licenseId": "BSD-Source-Code",
+    "urls": [
+      "https://spdx.org/licenses/BSD-Source-Code.json",
+      "https://github.com/robbiehanson/CocoaHTTPServer/blob/master/LICENSE.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Boost Software License 1.0",
+    "licenseId": "BSL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/BSL-1.0.json",
+      "http://www.boost.org/LICENSE_1_0.txt",
+      "https://opensource.org/licenses/BSL-1.0"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "52e58a3281519e003b000094"
+  },
+  {
+    "name": "Business Source License 1.1",
+    "licenseId": "BUSL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/BUSL-1.1.json",
+      "https://mariadb.com/bsl11/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "bzip2 and libbzip2 License v1.0.5",
+    "licenseId": "bzip2-1.0.5",
+    "urls": [
+      "https://spdx.org/licenses/bzip2-1.0.5.json",
+      "https://sourceware.org/bzip2/1.0.5/bzip2-manual-1.0.5.html",
+      "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "bzip2 and libbzip2 License v1.0.6",
+    "licenseId": "bzip2-1.0.6",
+    "urls": [
+      "https://spdx.org/licenses/bzip2-1.0.6.json",
+      "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6",
+      "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Computational Use of Data Agreement v1.0",
+    "licenseId": "C-UDA-1.0",
+    "urls": [
+      "https://spdx.org/licenses/C-UDA-1.0.json",
+      "https://github.com/microsoft/Computational-Use-of-Data-Agreement/blob/master/C-UDA-1.0.md",
+      "https://cdla.dev/computational-use-of-data-agreement-v1-0/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Cryptographic Autonomy License 1.0",
+    "licenseId": "CAL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CAL-1.0.json",
+      "http://cryptographicautonomylicense.com/license-text.html",
+      "https://opensource.org/licenses/CAL-1.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Cryptographic Autonomy License 1.0 (Combined Work Exception)",
+    "licenseId": "CAL-1.0-Combined-Work-Exception",
+    "urls": [
+      "https://spdx.org/licenses/CAL-1.0-Combined-Work-Exception.json",
+      "http://cryptographicautonomylicense.com/license-text.html",
+      "https://opensource.org/licenses/CAL-1.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Caldera License",
+    "licenseId": "Caldera",
+    "urls": [
+      "https://spdx.org/licenses/Caldera.json",
+      "http://www.lemis.com/grog/UNIX/ancient-source-all.pdf"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ad2146cca83a54c0024cf"
+  },
+  {
+    "name": "Computer Associates Trusted Open Source License 1.1",
+    "licenseId": "CATOSL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/CATOSL-1.1.json",
+      "https://opensource.org/licenses/CATOSL-1.1"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a275e2763c784c6000012d"
+  },
+  {
+    "name": "Creative Commons Attribution 1.0 Generic",
+    "licenseId": "CC-BY-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-1.0.json",
+      "https://creativecommons.org/licenses/by/1.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution 2.0 Generic",
+    "licenseId": "CC-BY-2.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-2.0.json",
+      "https://creativecommons.org/licenses/by/2.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution 2.5 Generic",
+    "licenseId": "CC-BY-2.5",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-2.5.json",
+      "https://creativecommons.org/licenses/by/2.5/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution 2.5 Australia",
+    "licenseId": "CC-BY-2.5-AU",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-2.5-AU.json",
+      "https://creativecommons.org/licenses/by/2.5/au/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution 3.0 Unported",
+    "licenseId": "CC-BY-3.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-3.0.json",
+      "https://creativecommons.org/licenses/by/3.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution 3.0 Austria",
+    "licenseId": "CC-BY-3.0-AT",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-3.0-AT.json",
+      "https://creativecommons.org/licenses/by/3.0/at/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution 3.0 Germany",
+    "licenseId": "CC-BY-3.0-DE",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-3.0-DE.json",
+      "https://creativecommons.org/licenses/by/3.0/de/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution 3.0 IGO",
+    "licenseId": "CC-BY-3.0-IGO",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-3.0-IGO.json",
+      "https://creativecommons.org/licenses/by/3.0/igo/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution 3.0 Netherlands",
+    "licenseId": "CC-BY-3.0-NL",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-3.0-NL.json",
+      "https://creativecommons.org/licenses/by/3.0/nl/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution 3.0 United States",
+    "licenseId": "CC-BY-3.0-US",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-3.0-US.json",
+      "https://creativecommons.org/licenses/by/3.0/us/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution 4.0 International",
+    "licenseId": "CC-BY-4.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-4.0.json",
+      "https://creativecommons.org/licenses/by/4.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial 1.0 Generic",
+    "licenseId": "CC-BY-NC-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-1.0.json",
+      "https://creativecommons.org/licenses/by-nc/1.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial 2.0 Generic",
+    "licenseId": "CC-BY-NC-2.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-2.0.json",
+      "https://creativecommons.org/licenses/by-nc/2.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial 2.5 Generic",
+    "licenseId": "CC-BY-NC-2.5",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-2.5.json",
+      "https://creativecommons.org/licenses/by-nc/2.5/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial 3.0 Unported",
+    "licenseId": "CC-BY-NC-3.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-3.0.json",
+      "https://creativecommons.org/licenses/by-nc/3.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial 3.0 Germany",
+    "licenseId": "CC-BY-NC-3.0-DE",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-3.0-DE.json",
+      "https://creativecommons.org/licenses/by-nc/3.0/de/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial 4.0 International",
+    "licenseId": "CC-BY-NC-4.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-4.0.json",
+      "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic",
+    "licenseId": "CC-BY-NC-ND-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-ND-1.0.json",
+      "https://creativecommons.org/licenses/by-nd-nc/1.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic",
+    "licenseId": "CC-BY-NC-ND-2.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-ND-2.0.json",
+      "https://creativecommons.org/licenses/by-nc-nd/2.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic",
+    "licenseId": "CC-BY-NC-ND-2.5",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-ND-2.5.json",
+      "https://creativecommons.org/licenses/by-nc-nd/2.5/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported",
+    "licenseId": "CC-BY-NC-ND-3.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-ND-3.0.json",
+      "https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial No Derivatives 3.0 Germany",
+    "licenseId": "CC-BY-NC-ND-3.0-DE",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-ND-3.0-DE.json",
+      "https://creativecommons.org/licenses/by-nc-nd/3.0/de/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO",
+    "licenseId": "CC-BY-NC-ND-3.0-IGO",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-ND-3.0-IGO.json",
+      "https://creativecommons.org/licenses/by-nc-nd/3.0/igo/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "licenseId": "CC-BY-NC-ND-4.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-ND-4.0.json",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial Share Alike 1.0 Generic",
+    "licenseId": "CC-BY-NC-SA-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-SA-1.0.json",
+      "https://creativecommons.org/licenses/by-nc-sa/1.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial Share Alike 2.0 Generic",
+    "licenseId": "CC-BY-NC-SA-2.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-SA-2.0.json",
+      "https://creativecommons.org/licenses/by-nc-sa/2.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution-NonCommercial-ShareAlike 2.0 France",
+    "licenseId": "CC-BY-NC-SA-2.0-FR",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-SA-2.0-FR.json",
+      "https://creativecommons.org/licenses/by-nc-sa/2.0/fr/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial Share Alike 2.0 England and Wales",
+    "licenseId": "CC-BY-NC-SA-2.0-UK",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-SA-2.0-UK.json",
+      "https://creativecommons.org/licenses/by-nc-sa/2.0/uk/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial Share Alike 2.5 Generic",
+    "licenseId": "CC-BY-NC-SA-2.5",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-SA-2.5.json",
+      "https://creativecommons.org/licenses/by-nc-sa/2.5/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported",
+    "licenseId": "CC-BY-NC-SA-3.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-SA-3.0.json",
+      "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial Share Alike 3.0 Germany",
+    "licenseId": "CC-BY-NC-SA-3.0-DE",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-SA-3.0-DE.json",
+      "https://creativecommons.org/licenses/by-nc-sa/3.0/de/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial Share Alike 3.0 IGO",
+    "licenseId": "CC-BY-NC-SA-3.0-IGO",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-SA-3.0-IGO.json",
+      "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+    "licenseId": "CC-BY-NC-SA-4.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-NC-SA-4.0.json",
+      "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution No Derivatives 1.0 Generic",
+    "licenseId": "CC-BY-ND-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-ND-1.0.json",
+      "https://creativecommons.org/licenses/by-nd/1.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution No Derivatives 2.0 Generic",
+    "licenseId": "CC-BY-ND-2.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-ND-2.0.json",
+      "https://creativecommons.org/licenses/by-nd/2.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution No Derivatives 2.5 Generic",
+    "licenseId": "CC-BY-ND-2.5",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-ND-2.5.json",
+      "https://creativecommons.org/licenses/by-nd/2.5/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution No Derivatives 3.0 Unported",
+    "licenseId": "CC-BY-ND-3.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-ND-3.0.json",
+      "https://creativecommons.org/licenses/by-nd/3.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution No Derivatives 3.0 Germany",
+    "licenseId": "CC-BY-ND-3.0-DE",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-ND-3.0-DE.json",
+      "https://creativecommons.org/licenses/by-nd/3.0/de/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution No Derivatives 4.0 International",
+    "licenseId": "CC-BY-ND-4.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-ND-4.0.json",
+      "https://creativecommons.org/licenses/by-nd/4.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Share Alike 1.0 Generic",
+    "licenseId": "CC-BY-SA-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-SA-1.0.json",
+      "https://creativecommons.org/licenses/by-sa/1.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Share Alike 2.0 Generic",
+    "licenseId": "CC-BY-SA-2.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-SA-2.0.json",
+      "https://creativecommons.org/licenses/by-sa/2.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Share Alike 2.0 England and Wales",
+    "licenseId": "CC-BY-SA-2.0-UK",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-SA-2.0-UK.json",
+      "https://creativecommons.org/licenses/by-sa/2.0/uk/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Share Alike 2.1 Japan",
+    "licenseId": "CC-BY-SA-2.1-JP",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-SA-2.1-JP.json",
+      "https://creativecommons.org/licenses/by-sa/2.1/jp/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Share Alike 2.5 Generic",
+    "licenseId": "CC-BY-SA-2.5",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-SA-2.5.json",
+      "https://creativecommons.org/licenses/by-sa/2.5/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Share Alike 3.0 Unported",
+    "licenseId": "CC-BY-SA-3.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-SA-3.0.json",
+      "https://creativecommons.org/licenses/by-sa/3.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Share Alike 3.0 Austria",
+    "licenseId": "CC-BY-SA-3.0-AT",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-SA-3.0-AT.json",
+      "https://creativecommons.org/licenses/by-sa/3.0/at/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Share Alike 3.0 Germany",
+    "licenseId": "CC-BY-SA-3.0-DE",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-SA-3.0-DE.json",
+      "https://creativecommons.org/licenses/by-sa/3.0/de/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Attribution Share Alike 4.0 International",
+    "licenseId": "CC-BY-SA-4.0",
+    "urls": [
+      "https://spdx.org/licenses/CC-BY-SA-4.0.json",
+      "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Public Domain Dedication and Certification",
+    "licenseId": "CC-PDDC",
+    "urls": [
+      "https://spdx.org/licenses/CC-PDDC.json",
+      "https://creativecommons.org/licenses/publicdomain/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Creative Commons Zero v1.0 Universal",
+    "licenseId": "CC0-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CC0-1.0.json",
+      "https://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    ],
+    "category": "Public Domain"
+  },
+  {
+    "name": "Common Development and Distribution License 1.0",
+    "licenseId": "CDDL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CDDL-1.0.json",
+      "https://opensource.org/licenses/cddl1"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "52c86a2d9f62d5643500007f"
+  },
+  {
+    "name": "Common Development and Distribution License 1.1",
+    "licenseId": "CDDL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/CDDL-1.1.json",
+      "http://glassfish.java.net/public/CDDL+GPL_1_1.html",
+      "https://javaee.github.io/glassfish/LICENSE"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "Common Documentation License 1.0",
+    "licenseId": "CDL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CDL-1.0.json",
+      "http://www.opensource.apple.com/cdl/",
+      "https://fedoraproject.org/wiki/Licensing/Common_Documentation_License",
+      "https://www.gnu.org/licenses/license-list.html#ACDL"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Community Data License Agreement Permissive 1.0",
+    "licenseId": "CDLA-Permissive-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CDLA-Permissive-1.0.json",
+      "https://cdla.io/permissive-1-0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Community Data License Agreement Permissive 2.0",
+    "licenseId": "CDLA-Permissive-2.0",
+    "urls": [
+      "https://spdx.org/licenses/CDLA-Permissive-2.0.json",
+      "https://cdla.dev/permissive-2-0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Community Data License Agreement Sharing 1.0",
+    "licenseId": "CDLA-Sharing-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CDLA-Sharing-1.0.json",
+      "https://cdla.io/sharing-1-0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "CeCILL Free Software License Agreement v1.0",
+    "licenseId": "CECILL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CECILL-1.0.json",
+      "http://www.cecill.info/licences/Licence_CeCILL_V1-fr.html"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "559edbf347cdaa075e000268"
+  },
+  {
+    "name": "CeCILL Free Software License Agreement v1.1",
+    "licenseId": "CECILL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/CECILL-1.1.json",
+      "http://www.cecill.info/licences/Licence_CeCILL_V1.1-US.html"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "559eddcb47cdaa075e000275"
+  },
+  {
+    "name": "CeCILL Free Software License Agreement v2.0",
+    "licenseId": "CECILL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/CECILL-2.0.json",
+      "http://www.cecill.info/licences/Licence_CeCILL_V2-en.html"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "53a9ec66763c784c6000031e"
+  },
+  {
+    "name": "CeCILL Free Software License Agreement v2.1",
+    "licenseId": "CECILL-2.1",
+    "urls": [
+      "https://spdx.org/licenses/CECILL-2.1.json",
+      "http://www.cecill.info/licences/Licence_CeCILL_V2.1-en.html"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "CeCILL-B Free Software License Agreement",
+    "licenseId": "CECILL-B",
+    "urls": [
+      "https://spdx.org/licenses/CECILL-B.json",
+      "http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.html"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "CeCILL-C Free Software License Agreement",
+    "licenseId": "CECILL-C",
+    "urls": [
+      "https://spdx.org/licenses/CECILL-C.json",
+      "http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "CERN Open Hardware Licence v1.1",
+    "licenseId": "CERN-OHL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/CERN-OHL-1.1.json",
+      "https://www.ohwr.org/project/licenses/wikis/cern-ohl-v1.1"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "CERN Open Hardware Licence v1.2",
+    "licenseId": "CERN-OHL-1.2",
+    "urls": [
+      "https://spdx.org/licenses/CERN-OHL-1.2.json",
+      "https://www.ohwr.org/project/licenses/wikis/cern-ohl-v1.2"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "CERN Open Hardware Licence Version 2 - Permissive",
+    "licenseId": "CERN-OHL-P-2.0",
+    "urls": [
+      "https://spdx.org/licenses/CERN-OHL-P-2.0.json",
+      "https://www.ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "CERN Open Hardware Licence Version 2 - Strongly Reciprocal",
+    "licenseId": "CERN-OHL-S-2.0",
+    "urls": [
+      "https://spdx.org/licenses/CERN-OHL-S-2.0.json",
+      "https://www.ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "CERN Open Hardware Licence Version 2 - Weakly Reciprocal",
+    "licenseId": "CERN-OHL-W-2.0",
+    "urls": [
+      "https://spdx.org/licenses/CERN-OHL-W-2.0.json",
+      "https://www.ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Checkmk License",
+    "licenseId": "checkmk",
+    "urls": [
+      "https://spdx.org/licenses/checkmk.json",
+      "https://github.com/libcheck/check/blob/master/checkmk/checkmk.in"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Clarified Artistic License",
+    "licenseId": "ClArtistic",
+    "urls": [
+      "https://spdx.org/licenses/ClArtistic.json",
+      "http://gianluca.dellavedova.org/2011/01/03/clarified-artistic-license/",
+      "http://www.ncftp.com/ncftp/doc/LICENSE.txt"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "539ffb5c8634f2f942000036"
+  },
+  {
+    "name": "CNRI Jython License",
+    "licenseId": "CNRI-Jython",
+    "urls": [
+      "https://spdx.org/licenses/CNRI-Jython.json",
+      "http://www.jython.org/license.html"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "576ad6076cca83a54c0024dd"
+  },
+  {
+    "name": "CNRI Python License",
+    "licenseId": "CNRI-Python",
+    "urls": [
+      "https://spdx.org/licenses/CNRI-Python.json",
+      "https://opensource.org/licenses/CNRI-Python"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "53a07a568634f2f942000042"
+  },
+  {
+    "name": "CNRI Python Open Source GPL Compatible License Agreement",
+    "licenseId": "CNRI-Python-GPL-Compatible",
+    "urls": [
+      "https://spdx.org/licenses/CNRI-Python-GPL-Compatible.json",
+      "http://www.python.org/download/releases/1.6.1/download_win/"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Copyfree Open Innovation License",
+    "licenseId": "COIL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/COIL-1.0.json",
+      "https://coil.apotheon.org/plaintext/01.0.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Community Specification License 1.0",
+    "licenseId": "Community-Spec-1.0",
+    "urls": [
+      "https://spdx.org/licenses/Community-Spec-1.0.json",
+      "https://github.com/CommunitySpecification/1.0/blob/master/1._Community_Specification_License-v1.md"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Condor Public License v1.1",
+    "licenseId": "Condor-1.1",
+    "urls": [
+      "https://spdx.org/licenses/Condor-1.1.json",
+      "http://research.cs.wisc.edu/condor/license.html#condor",
+      "http://web.archive.org/web/20111123062036/http://research.cs.wisc.edu/condor/license.html#condor"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "53a08b968634f2f942000073"
+  },
+  {
+    "name": "copyleft-next 0.3.0",
+    "licenseId": "copyleft-next-0.3.0",
+    "urls": [
+      "https://spdx.org/licenses/copyleft-next-0.3.0.json",
+      "https://github.com/copyleft-next/copyleft-next/blob/master/Releases/copyleft-next-0.3.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "copyleft-next 0.3.1",
+    "licenseId": "copyleft-next-0.3.1",
+    "urls": [
+      "https://spdx.org/licenses/copyleft-next-0.3.1.json",
+      "https://github.com/copyleft-next/copyleft-next/blob/master/Releases/copyleft-next-0.3.1"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Common Public Attribution License 1.0",
+    "licenseId": "CPAL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CPAL-1.0.json",
+      "https://opensource.org/licenses/CPAL-1.0"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53283ab72618a4a5040000c7"
+  },
+  {
+    "name": "Common Public License 1.0",
+    "licenseId": "CPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CPL-1.0.json",
+      "https://opensource.org/licenses/CPL-1.0"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "53a07fbb8634f2f942000056"
+  },
+  {
+    "name": "Code Project Open License 1.02",
+    "licenseId": "CPOL-1.02",
+    "urls": [
+      "https://spdx.org/licenses/CPOL-1.02.json",
+      "http://www.codeproject.com/info/cpol10.aspx"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53070f744cfb62310c000089"
+  },
+  {
+    "name": "Crossword License",
+    "licenseId": "Crossword",
+    "urls": [
+      "https://spdx.org/licenses/Crossword.json",
+      "https://fedoraproject.org/wiki/Licensing/Crossword"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ad7136cca83a54c0024e2"
+  },
+  {
+    "name": "CrystalStacker License",
+    "licenseId": "CrystalStacker",
+    "urls": [
+      "https://spdx.org/licenses/CrystalStacker.json",
+      "https://fedoraproject.org/wiki/Licensing:CrystalStacker?rd=Licensing/CrystalStacker"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ad7c26cca83a54c0024e8"
+  },
+  {
+    "name": "CUA Office Public License v1.0",
+    "licenseId": "CUA-OPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/CUA-OPL-1.0.json",
+      "https://opensource.org/licenses/CUA-OPL-1.0"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a27910763c784c6000013e"
+  },
+  {
+    "name": "Cube License",
+    "licenseId": "Cube",
+    "urls": [
+      "https://spdx.org/licenses/Cube.json",
+      "https://fedoraproject.org/wiki/Licensing/Cube"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ad8ad6cca83a54c0024f0"
+  },
+  {
+    "name": "curl License",
+    "licenseId": "curl",
+    "urls": [
+      "https://spdx.org/licenses/curl.json",
+      "https://github.com/bagder/curl/blob/master/COPYING"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ad9026cca83a54c0024f5"
+  },
+  {
+    "name": "Deutsche Freie Software Lizenz",
+    "licenseId": "D-FSL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/D-FSL-1.0.json",
+      "http://www.dipp.nrw.de/d-fsl/lizenzen/",
+      "http://www.dipp.nrw.de/d-fsl/index_html/lizenzen/de/D-FSL-1_0_de.txt",
+      "http://www.dipp.nrw.de/d-fsl/index_html/lizenzen/en/D-FSL-1_0_en.txt",
+      "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl",
+      "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl/deutsche-freie-software-lizenz",
+      "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl/german-free-software-license",
+      "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl/D-FSL-1_0_de.txt/at_download/file",
+      "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl/D-FSL-1_0_en.txt/at_download/file"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "diffmark license",
+    "licenseId": "diffmark",
+    "urls": [
+      "https://spdx.org/licenses/diffmark.json",
+      "https://fedoraproject.org/wiki/Licensing/diffmark"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576adb516cca83a54c0024fb"
+  },
+  {
+    "name": "Data licence Germany – attribution – version 2.0",
+    "licenseId": "DL-DE-BY-2.0",
+    "urls": [
+      "https://spdx.org/licenses/DL-DE-BY-2.0.json",
+      "https://www.govdata.de/dl-de/by-2-0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "DOC License",
+    "licenseId": "DOC",
+    "urls": [
+      "https://spdx.org/licenses/DOC.json",
+      "http://www.cs.wustl.edu/~schmidt/ACE-copying.html",
+      "https://www.dre.vanderbilt.edu/~schmidt/ACE-copying.html"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576adbd76cca83a54c002500"
+  },
+  {
+    "name": "Dotseqn License",
+    "licenseId": "Dotseqn",
+    "urls": [
+      "https://spdx.org/licenses/Dotseqn.json",
+      "https://fedoraproject.org/wiki/Licensing/Dotseqn"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576adcde6cca83a54c002505"
+  },
+  {
+    "name": "Detection Rule License 1.0",
+    "licenseId": "DRL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/DRL-1.0.json",
+      "https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "DSDP License",
+    "licenseId": "DSDP",
+    "urls": [
+      "https://spdx.org/licenses/DSDP.json",
+      "https://fedoraproject.org/wiki/Licensing/DSDP"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "576add266cca83a54c00250a"
+  },
+  {
+    "name": "dvipdfm License",
+    "licenseId": "dvipdfm",
+    "urls": [
+      "https://spdx.org/licenses/dvipdfm.json",
+      "https://fedoraproject.org/wiki/Licensing/dvipdfm"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576add5c6cca83a54c002510"
+  },
+  {
+    "name": "Educational Community License v1.0",
+    "licenseId": "ECL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/ECL-1.0.json",
+      "https://opensource.org/licenses/ECL-1.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Educational Community License v2.0",
+    "licenseId": "ECL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/ECL-2.0.json",
+      "https://opensource.org/licenses/ECL-2.0"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "536774cfd62286904400000a"
+  },
+  {
+    "name": "eCos license version 2.0",
+    "licenseId": "eCos-2.0",
+    "urls": [
+      "https://spdx.org/licenses/eCos-2.0.json",
+      "https://www.gnu.org/licenses/ecos-license.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Eiffel Forum License v1.0",
+    "licenseId": "EFL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/EFL-1.0.json",
+      "http://www.eiffel-nice.org/license/forum.txt",
+      "https://opensource.org/licenses/EFL-1.0"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Eiffel Forum License v2.0",
+    "licenseId": "EFL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/EFL-2.0.json",
+      "http://www.eiffel-nice.org/license/eiffel-forum-license-2.html",
+      "https://opensource.org/licenses/EFL-2.0"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "53a091fe8634f2f942000093"
+  },
+  {
+    "name": "eGenix.com Public License 1.1.0",
+    "licenseId": "eGenix",
+    "urls": [
+      "https://spdx.org/licenses/eGenix.json",
+      "http://www.egenix.com/products/eGenix.com-Public-License-1.1.0.pdf",
+      "https://fedoraproject.org/wiki/Licensing/eGenix.com_Public_License_1.1.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Elastic License 2.0",
+    "licenseId": "Elastic-2.0",
+    "urls": [
+      "https://spdx.org/licenses/Elastic-2.0.json",
+      "https://www.elastic.co/licensing/elastic-license",
+      "https://github.com/elastic/elasticsearch/blob/master/licenses/ELASTIC-LICENSE-2.0.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Entessa Public License v1.0",
+    "licenseId": "Entessa",
+    "urls": [
+      "https://spdx.org/licenses/Entessa.json",
+      "https://opensource.org/licenses/Entessa"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a0930d8634f2f9420000a4"
+  },
+  {
+    "name": "EPICS Open License",
+    "licenseId": "EPICS",
+    "urls": [
+      "https://spdx.org/licenses/EPICS.json",
+      "https://epics.anl.gov/license/open.php"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Eclipse Public License 1.0",
+    "licenseId": "EPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/EPL-1.0.json",
+      "http://www.eclipse.org/legal/epl-v10.html",
+      "https://opensource.org/licenses/EPL-1.0"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "52e582bb81519e003b000030"
+  },
+  {
+    "name": "Eclipse Public License 2.0",
+    "licenseId": "EPL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/EPL-2.0.json",
+      "https://www.eclipse.org/legal/epl-2.0",
+      "https://www.opensource.org/licenses/EPL-2.0"
+    ],
+    "category": "Strongly Protective"
+  },
+  {
+    "name": "Erlang Public License v1.1",
+    "licenseId": "ErlPL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/ErlPL-1.1.json",
+      "http://www.erlang.org/EPLICENSE"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a27ae3763c784c6000015d"
+  },
+  {
+    "name": "Etalab Open License 2.0",
+    "licenseId": "etalab-2.0",
+    "urls": [
+      "https://spdx.org/licenses/etalab-2.0.json",
+      "https://github.com/DISIC/politique-de-contribution-open-source/blob/master/LICENSE.pdf",
+      "https://raw.githubusercontent.com/DISIC/politique-de-contribution-open-source/master/LICENSE"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "EU DataGrid Software License",
+    "licenseId": "EUDatagrid",
+    "urls": [
+      "https://spdx.org/licenses/EUDatagrid.json",
+      "http://eu-datagrid.web.cern.ch/eu-datagrid/license.html",
+      "https://opensource.org/licenses/EUDatagrid"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a099998634f2f9420000c2"
+  },
+  {
+    "name": "European Union Public License 1.0",
+    "licenseId": "EUPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/EUPL-1.0.json",
+      "http://ec.europa.eu/idabc/en/document/7330.html",
+      "http://ec.europa.eu/idabc/servlets/Doc027f.pdf?id=31096"
+    ],
+    "category": "Strongly Protective"
+  },
+  {
+    "name": "European Union Public License 1.1",
+    "licenseId": "EUPL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/EUPL-1.1.json",
+      "https://joinup.ec.europa.eu/software/page/eupl/licence-eupl",
+      "https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl1.1.-licence-en_0.pdf",
+      "https://opensource.org/licenses/EUPL-1.1"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "532e08b35d0187c662000058"
+  },
+  {
+    "name": "European Union Public License 1.2",
+    "licenseId": "EUPL-1.2",
+    "urls": [
+      "https://spdx.org/licenses/EUPL-1.2.json",
+      "https://joinup.ec.europa.eu/page/eupl-text-11-12",
+      "https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl_v1.2_en.pdf",
+      "https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt",
+      "https://joinup.ec.europa.eu/sites/default/files/inline-files/EUPL%20v1_2%20EN(1).txt",
+      "http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017D0863",
+      "https://opensource.org/licenses/EUPL-1.2"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Eurosym License",
+    "licenseId": "Eurosym",
+    "urls": [
+      "https://spdx.org/licenses/Eurosym.json",
+      "https://fedoraproject.org/wiki/Licensing/Eurosym"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576adff86cca83a54c00251e"
+  },
+  {
+    "name": "Fair License",
+    "licenseId": "Fair",
+    "urls": [
+      "https://spdx.org/licenses/Fair.json",
+      "http://fairlicense.org/",
+      "https://opensource.org/licenses/Fair"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "52d6fd64699b50d11d00000b"
+  },
+  {
+    "name": "Fraunhofer FDK AAC Codec Library",
+    "licenseId": "FDK-AAC",
+    "urls": [
+      "https://spdx.org/licenses/FDK-AAC.json",
+      "https://fedoraproject.org/wiki/Licensing/FDK-AAC",
+      "https://directory.fsf.org/wiki/License:Fdk"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Frameworx Open License 1.0",
+    "licenseId": "Frameworx-1.0",
+    "urls": [
+      "https://spdx.org/licenses/Frameworx-1.0.json",
+      "https://opensource.org/licenses/Frameworx-1.0"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a0bcd844c171555500004a"
+  },
+  {
+    "name": "FreeBSD Documentation License",
+    "licenseId": "FreeBSD-DOC",
+    "urls": [
+      "https://spdx.org/licenses/FreeBSD-DOC.json",
+      "https://www.freebsd.org/copyright/freebsd-doc-license/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "FreeImage Public License v1.0",
+    "licenseId": "FreeImage",
+    "urls": [
+      "https://spdx.org/licenses/FreeImage.json",
+      "http://freeimage.sourceforge.net/freeimage-license.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "FSF All Permissive License",
+    "licenseId": "FSFAP",
+    "urls": [
+      "https://spdx.org/licenses/FSFAP.json",
+      "https://www.gnu.org/prep/maintain/html_node/License-Notices-for-Other-Files.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "FSF Unlimited License",
+    "licenseId": "FSFUL",
+    "urls": [
+      "https://spdx.org/licenses/FSFUL.json",
+      "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "FSF Unlimited License (with License Retention)",
+    "licenseId": "FSFULLR",
+    "urls": [
+      "https://spdx.org/licenses/FSFULLR.json",
+      "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License#License_Retention_Variant"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "FSF Unlimited License (With License Retention    and Warranty Disclaimer)",
+    "licenseId": "FSFULLRWD",
+    "urls": [
+      "https://spdx.org/licenses/FSFULLRWD.json",
+      "https://lists.gnu.org/archive/html/autoconf/2012-04/msg00061.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Freetype Project License",
+    "licenseId": "FTL",
+    "urls": [
+      "https://spdx.org/licenses/FTL.json",
+      "http://freetype.fis.uniroma2.it/FTL.TXT",
+      "http://git.savannah.gnu.org/cgit/freetype/freetype2.git/tree/docs/FTL.TXT",
+      "http://gitlab.freedesktop.org/freetype/freetype/-/raw/master/docs/FTL.TXT"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "53a0c85844c171555500006c"
+  },
+  {
+    "name": "GD License",
+    "licenseId": "GD",
+    "urls": [
+      "https://spdx.org/licenses/GD.json",
+      "https://libgd.github.io/manuals/2.3.0/files/license-txt.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.1",
+    "licenseId": "GFDL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.1.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.1 only - invariants",
+    "licenseId": "GFDL-1.1-invariants-only",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.1-invariants-only.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.1 or later - invariants",
+    "licenseId": "GFDL-1.1-invariants-or-later",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.1-invariants-or-later.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.1 only - no invariants",
+    "licenseId": "GFDL-1.1-no-invariants-only",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.1-no-invariants-only.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.1 or later - no invariants",
+    "licenseId": "GFDL-1.1-no-invariants-or-later",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.1-no-invariants-or-later.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.1 only",
+    "licenseId": "GFDL-1.1-only",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.1-only.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.1 or later",
+    "licenseId": "GFDL-1.1-or-later",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.1-or-later.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.2",
+    "licenseId": "GFDL-1.2",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.2.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.2 only - invariants",
+    "licenseId": "GFDL-1.2-invariants-only",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.2-invariants-only.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.2 or later - invariants",
+    "licenseId": "GFDL-1.2-invariants-or-later",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.2-invariants-or-later.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.2 only - no invariants",
+    "licenseId": "GFDL-1.2-no-invariants-only",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.2-no-invariants-only.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.2 or later - no invariants",
+    "licenseId": "GFDL-1.2-no-invariants-or-later",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.2-no-invariants-or-later.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.2 only",
+    "licenseId": "GFDL-1.2-only",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.2-only.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.2 or later",
+    "licenseId": "GFDL-1.2-or-later",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.2-or-later.json",
+      "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.3",
+    "licenseId": "GFDL-1.3",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.3.json",
+      "https://www.gnu.org/licenses/fdl-1.3.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.3 only - invariants",
+    "licenseId": "GFDL-1.3-invariants-only",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.3-invariants-only.json",
+      "https://www.gnu.org/licenses/fdl-1.3.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.3 or later - invariants",
+    "licenseId": "GFDL-1.3-invariants-or-later",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.3-invariants-or-later.json",
+      "https://www.gnu.org/licenses/fdl-1.3.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.3 only - no invariants",
+    "licenseId": "GFDL-1.3-no-invariants-only",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.3-no-invariants-only.json",
+      "https://www.gnu.org/licenses/fdl-1.3.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.3 or later - no invariants",
+    "licenseId": "GFDL-1.3-no-invariants-or-later",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.3-no-invariants-or-later.json",
+      "https://www.gnu.org/licenses/fdl-1.3.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.3 only",
+    "licenseId": "GFDL-1.3-only",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.3-only.json",
+      "https://www.gnu.org/licenses/fdl-1.3.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Free Documentation License v1.3 or later",
+    "licenseId": "GFDL-1.3-or-later",
+    "urls": [
+      "https://spdx.org/licenses/GFDL-1.3-or-later.json",
+      "https://www.gnu.org/licenses/fdl-1.3.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Giftware License",
+    "licenseId": "Giftware",
+    "urls": [
+      "https://spdx.org/licenses/Giftware.json",
+      "http://liballeg.org/license.html#allegro-4-the-giftware-license"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ae5726cca83a54c002528"
+  },
+  {
+    "name": "GL2PS License",
+    "licenseId": "GL2PS",
+    "urls": [
+      "https://spdx.org/licenses/GL2PS.json",
+      "http://www.geuz.org/gl2ps/COPYING.GL2PS"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "3dfx Glide License",
+    "licenseId": "Glide",
+    "urls": [
+      "https://spdx.org/licenses/Glide.json",
+      "http://www.users.on.net/~triforce/glidexp/COPYING.txt"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ac7846cca83a54c00248d"
+  },
+  {
+    "name": "Glulxe License",
+    "licenseId": "Glulxe",
+    "urls": [
+      "https://spdx.org/licenses/Glulxe.json",
+      "https://fedoraproject.org/wiki/Licensing/Glulxe"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ae5af6cca83a54c00252d"
+  },
+  {
+    "name": "Good Luck With That Public License",
+    "licenseId": "GLWTPL",
+    "urls": [
+      "https://spdx.org/licenses/GLWTPL.json",
+      "https://github.com/me-shaon/GLWTPL/commit/da5f6bc734095efbacb442c0b31e33a65b9d6e85"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "gnuplot License",
+    "licenseId": "gnuplot",
+    "urls": [
+      "https://spdx.org/licenses/gnuplot.json",
+      "https://fedoraproject.org/wiki/Licensing/Gnuplot"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU General Public License v1.0 only",
+    "licenseId": "GPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/GPL-1.0.json",
+      "https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html"
+    ],
+    "category": "Strongly Protective"
+  },
+  {
+    "name": "GNU General Public License v1.0 or later",
+    "licenseId": "GPL-1.0+",
+    "urls": [
+      "https://spdx.org/licenses/GPL-1.0+.json",
+      "https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU General Public License v1.0 only",
+    "licenseId": "GPL-1.0-only",
+    "urls": [
+      "https://spdx.org/licenses/GPL-1.0-only.json",
+      "https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU General Public License v1.0 or later",
+    "licenseId": "GPL-1.0-or-later",
+    "urls": [
+      "https://spdx.org/licenses/GPL-1.0-or-later.json",
+      "https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU General Public License v2.0 only",
+    "licenseId": "GPL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/GPL-2.0.json",
+      "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+      "https://opensource.org/licenses/GPL-2.0"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "52c8605c02e7ac6f3400002b"
+  },
+  {
+    "name": "GNU General Public License v2.0 or later",
+    "licenseId": "GPL-2.0+",
+    "urls": [
+      "https://spdx.org/licenses/GPL-2.0+.json",
+      "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+      "https://opensource.org/licenses/GPL-2.0"
+    ],
+    "category": "Strongly Protective"
+  },
+  {
+    "name": "GNU General Public License v2.0 only",
+    "licenseId": "GPL-2.0-only",
+    "urls": [
+      "https://spdx.org/licenses/GPL-2.0-only.json",
+      "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+      "https://opensource.org/licenses/GPL-2.0"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "52c8605c02e7ac6f3400002b"
+  },
+  {
+    "name": "GNU General Public License v2.0 or later",
+    "licenseId": "GPL-2.0-or-later",
+    "urls": [
+      "https://spdx.org/licenses/GPL-2.0-or-later.json",
+      "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+      "https://opensource.org/licenses/GPL-2.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU General Public License v2.0 w/Autoconf exception",
+    "licenseId": "GPL-2.0-with-autoconf-exception",
+    "urls": [
+      "https://spdx.org/licenses/GPL-2.0-with-autoconf-exception.json",
+      "http://ac-archive.sourceforge.net/doc/copyright.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU General Public License v2.0 w/Bison exception",
+    "licenseId": "GPL-2.0-with-bison-exception",
+    "urls": [
+      "https://spdx.org/licenses/GPL-2.0-with-bison-exception.json",
+      "http://git.savannah.gnu.org/cgit/bison.git/tree/data/yacc.c?id=193d7c7054ba7197b0789e14965b739162319b5e#n141"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU General Public License v2.0 w/Classpath exception",
+    "licenseId": "GPL-2.0-with-classpath-exception",
+    "urls": [
+      "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.json",
+      "https://www.gnu.org/software/classpath/license.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU General Public License v2.0 w/Font exception",
+    "licenseId": "GPL-2.0-with-font-exception",
+    "urls": [
+      "https://spdx.org/licenses/GPL-2.0-with-font-exception.json",
+      "https://www.gnu.org/licenses/gpl-faq.html#FontException"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU General Public License v2.0 w/GCC Runtime Library exception",
+    "licenseId": "GPL-2.0-with-GCC-exception",
+    "urls": [
+      "https://spdx.org/licenses/GPL-2.0-with-GCC-exception.json",
+      "https://gcc.gnu.org/git/?p=gcc.git;a=blob;f=gcc/libgcc1.c;h=762f5143fc6eed57b6797c82710f3538aa52b40b;hb=cb143a3ce4fb417c68f5fa2691a1b1b1053dfba9#l10"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU General Public License v3.0 only",
+    "licenseId": "GPL-3.0",
+    "urls": [
+      "https://spdx.org/licenses/GPL-3.0.json",
+      "https://www.gnu.org/licenses/gpl-3.0-standalone.html",
+      "https://opensource.org/licenses/GPL-3.0"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "52c863569f62d5643500000c"
+  },
+  {
+    "name": "GNU General Public License v3.0 or later",
+    "licenseId": "GPL-3.0+",
+    "urls": [
+      "https://spdx.org/licenses/GPL-3.0+.json",
+      "https://www.gnu.org/licenses/gpl-3.0-standalone.html",
+      "https://opensource.org/licenses/GPL-3.0"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "52c863569f62d5643500000c"
+  },
+  {
+    "name": "GNU General Public License v3.0 only",
+    "licenseId": "GPL-3.0-only",
+    "urls": [
+      "https://spdx.org/licenses/GPL-3.0-only.json",
+      "https://www.gnu.org/licenses/gpl-3.0-standalone.html",
+      "https://opensource.org/licenses/GPL-3.0"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "52c863569f62d5643500000c"
+  },
+  {
+    "name": "GNU General Public License v3.0 or later",
+    "licenseId": "GPL-3.0-or-later",
+    "urls": [
+      "https://spdx.org/licenses/GPL-3.0-or-later.json",
+      "https://www.gnu.org/licenses/gpl-3.0-standalone.html",
+      "https://opensource.org/licenses/GPL-3.0"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "52c863569f62d5643500000c"
+  },
+  {
+    "name": "GNU General Public License v3.0 w/Autoconf exception",
+    "licenseId": "GPL-3.0-with-autoconf-exception",
+    "urls": [
+      "https://spdx.org/licenses/GPL-3.0-with-autoconf-exception.json",
+      "https://www.gnu.org/licenses/autoconf-exception-3.0.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU General Public License v3.0 w/GCC Runtime Library exception",
+    "licenseId": "GPL-3.0-with-GCC-exception",
+    "urls": [
+      "https://spdx.org/licenses/GPL-3.0-with-GCC-exception.json",
+      "https://www.gnu.org/licenses/gcc-exception-3.1.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "gSOAP Public License v1.3b",
+    "licenseId": "gSOAP-1.3b",
+    "urls": [
+      "https://spdx.org/licenses/gSOAP-1.3b.json",
+      "http://www.cs.fsu.edu/~engelen/license.html"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a27d9e763c784c60000180"
+  },
+  {
+    "name": "Haskell Language Report License",
+    "licenseId": "HaskellReport",
+    "urls": [
+      "https://spdx.org/licenses/HaskellReport.json",
+      "https://fedoraproject.org/wiki/Licensing/Haskell_Language_Report_License"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ae5f76cca83a54c002532"
+  },
+  {
+    "name": "Hippocratic License 2.1",
+    "licenseId": "Hippocratic-2.1",
+    "urls": [
+      "https://spdx.org/licenses/Hippocratic-2.1.json",
+      "https://firstdonoharm.dev/version/2/1/license.html",
+      "https://github.com/EthicalSource/hippocratic-license/blob/58c0e646d64ff6fbee275bfe2b9492f914e3ab2a/LICENSE.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Historical Permission Notice and Disclaimer",
+    "licenseId": "HPND",
+    "urls": [
+      "https://spdx.org/licenses/HPND.json",
+      "https://opensource.org/licenses/HPND"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a0c9a844c1715555000079"
+  },
+  {
+    "name": "Historical Permission Notice and Disclaimer - sell variant",
+    "licenseId": "HPND-sell-variant",
+    "urls": [
+      "https://spdx.org/licenses/HPND-sell-variant.json",
+      "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/net/sunrpc/auth_gss/gss_generic_token.c?h=v4.19"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "HTML Tidy License",
+    "licenseId": "HTMLTIDY",
+    "urls": [
+      "https://spdx.org/licenses/HTMLTIDY.json",
+      "https://github.com/htacg/tidy-html5/blob/next/README/LICENSE.md"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "IBM PowerPC Initialization and Boot Software",
+    "licenseId": "IBM-pibs",
+    "urls": [
+      "https://spdx.org/licenses/IBM-pibs.json",
+      "http://git.denx.de/?p=u-boot.git;a=blob;f=arch/powerpc/cpu/ppc4xx/miiphy.c;h=297155fdafa064b955e53e9832de93bfb0cfb85b;hb=9fab4bf4cc077c21e43941866f3f2c196f28670d"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a0cab244c1715555000086"
+  },
+  {
+    "name": "ICU License",
+    "licenseId": "ICU",
+    "urls": [
+      "https://spdx.org/licenses/ICU.json",
+      "http://source.icu-project.org/repos/icu/icu/trunk/license.html"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Independent JPEG Group License",
+    "licenseId": "IJG",
+    "urls": [
+      "https://spdx.org/licenses/IJG.json",
+      "http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a0cd1744c171555500009f"
+  },
+  {
+    "name": "ImageMagick License",
+    "licenseId": "ImageMagick",
+    "urls": [
+      "https://spdx.org/licenses/ImageMagick.json",
+      "http://www.imagemagick.org/script/license.php"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "iMatix Standard Function Library Agreement",
+    "licenseId": "iMatix",
+    "urls": [
+      "https://spdx.org/licenses/iMatix.json",
+      "http://legacy.imatix.com/html/sfl/sfl4.htm#license"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Imlib2 License",
+    "licenseId": "Imlib2",
+    "urls": [
+      "https://spdx.org/licenses/Imlib2.json",
+      "http://trac.enlightenment.org/e/browser/trunk/imlib2/COPYING",
+      "https://git.enlightenment.org/legacy/imlib2.git/tree/COPYING"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a0cb4f44c1715555000093"
+  },
+  {
+    "name": "Info-ZIP License",
+    "licenseId": "Info-ZIP",
+    "urls": [
+      "https://spdx.org/licenses/Info-ZIP.json",
+      "http://www.info-zip.org/license.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Intel Open Source License",
+    "licenseId": "Intel",
+    "urls": [
+      "https://spdx.org/licenses/Intel.json",
+      "https://opensource.org/licenses/Intel"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a0ce0444c17155550000ab"
+  },
+  {
+    "name": "Intel ACPI Software License Agreement",
+    "licenseId": "Intel-ACPI",
+    "urls": [
+      "https://spdx.org/licenses/Intel-ACPI.json",
+      "https://fedoraproject.org/wiki/Licensing/Intel_ACPI_Software_License_Agreement"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Interbase Public License v1.0",
+    "licenseId": "Interbase-1.0",
+    "urls": [
+      "https://spdx.org/licenses/Interbase-1.0.json",
+      "https://web.archive.org/web/20060319014854/http://info.borland.com/devsupport/interbase/opensource/IPL.html"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "IPA Font License",
+    "licenseId": "IPA",
+    "urls": [
+      "https://spdx.org/licenses/IPA.json",
+      "https://opensource.org/licenses/IPA"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "52e582fa81519e003b00003d"
+  },
+  {
+    "name": "IBM Public License v1.0",
+    "licenseId": "IPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/IPL-1.0.json",
+      "https://opensource.org/licenses/IPL-1.0"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "52e5832f81519e003b000049"
+  },
+  {
+    "name": "ISC License",
+    "licenseId": "ISC",
+    "urls": [
+      "https://spdx.org/licenses/ISC.json",
+      "https://www.isc.org/licenses/",
+      "https://www.isc.org/downloads/software-support-policy/isc-license/",
+      "https://opensource.org/licenses/ISC"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "52e58b3e81519e003b00009f"
+  },
+  {
+    "name": "Jam License",
+    "licenseId": "Jam",
+    "urls": [
+      "https://spdx.org/licenses/Jam.json",
+      "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html",
+      "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "JasPer License",
+    "licenseId": "JasPer-2.0",
+    "urls": [
+      "https://spdx.org/licenses/JasPer-2.0.json",
+      "http://www.ece.uvic.ca/~mdadams/jasper/LICENSE"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Japan Network Information Center License",
+    "licenseId": "JPNIC",
+    "urls": [
+      "https://spdx.org/licenses/JPNIC.json",
+      "https://gitlab.isc.org/isc-projects/bind9/blob/master/COPYRIGHT#L366"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "JSON License",
+    "licenseId": "JSON",
+    "urls": [
+      "https://spdx.org/licenses/JSON.json",
+      "http://www.json.org/license.html"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "531dd9769388f5c0270000a8"
+  },
+  {
+    "name": "Knuth CTAN License",
+    "licenseId": "Knuth-CTAN",
+    "urls": [
+      "https://spdx.org/licenses/Knuth-CTAN.json",
+      "https://ctan.org/license/knuth"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Licence Art Libre 1.2",
+    "licenseId": "LAL-1.2",
+    "urls": [
+      "https://spdx.org/licenses/LAL-1.2.json",
+      "http://artlibre.org/licence/lal/licence-art-libre-12/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Licence Art Libre 1.3",
+    "licenseId": "LAL-1.3",
+    "urls": [
+      "https://spdx.org/licenses/LAL-1.3.json",
+      "https://artlibre.org/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Latex2e License",
+    "licenseId": "Latex2e",
+    "urls": [
+      "https://spdx.org/licenses/Latex2e.json",
+      "https://fedoraproject.org/wiki/Licensing/Latex2e"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Leptonica License",
+    "licenseId": "Leptonica",
+    "urls": [
+      "https://spdx.org/licenses/Leptonica.json",
+      "https://fedoraproject.org/wiki/Licensing/Leptonica"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Library General Public License v2 only",
+    "licenseId": "LGPL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/LGPL-2.0.json",
+      "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "GNU Library General Public License v2 or later",
+    "licenseId": "LGPL-2.0+",
+    "urls": [
+      "https://spdx.org/licenses/LGPL-2.0+.json",
+      "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Library General Public License v2 only",
+    "licenseId": "LGPL-2.0-only",
+    "urls": [
+      "https://spdx.org/licenses/LGPL-2.0-only.json",
+      "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Library General Public License v2 or later",
+    "licenseId": "LGPL-2.0-or-later",
+    "urls": [
+      "https://spdx.org/licenses/LGPL-2.0-or-later.json",
+      "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Lesser General Public License v2.1 only",
+    "licenseId": "LGPL-2.1",
+    "urls": [
+      "https://spdx.org/licenses/LGPL-2.1.json",
+      "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html",
+      "https://opensource.org/licenses/LGPL-2.1"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "52c867dc9f62d56435000039"
+  },
+  {
+    "name": "GNU Library General Public License v2.1 or later",
+    "licenseId": "LGPL-2.1+",
+    "urls": [
+      "https://spdx.org/licenses/LGPL-2.1+.json",
+      "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html",
+      "https://opensource.org/licenses/LGPL-2.1"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "GNU Lesser General Public License v2.1 only",
+    "licenseId": "LGPL-2.1-only",
+    "urls": [
+      "https://spdx.org/licenses/LGPL-2.1-only.json",
+      "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html",
+      "https://opensource.org/licenses/LGPL-2.1"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "52c867dc9f62d56435000039"
+  },
+  {
+    "name": "GNU Lesser General Public License v2.1 or later",
+    "licenseId": "LGPL-2.1-or-later",
+    "urls": [
+      "https://spdx.org/licenses/LGPL-2.1-or-later.json",
+      "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html",
+      "https://opensource.org/licenses/LGPL-2.1"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "GNU Lesser General Public License v3.0 only",
+    "licenseId": "LGPL-3.0",
+    "urls": [
+      "https://spdx.org/licenses/LGPL-3.0.json",
+      "https://www.gnu.org/licenses/lgpl-3.0-standalone.html",
+      "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt",
+      "https://opensource.org/licenses/LGPL-3.0"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "5519e20d4f296fbc2d0001b3"
+  },
+  {
+    "name": "GNU Lesser General Public License v3.0 or later",
+    "licenseId": "LGPL-3.0+",
+    "urls": [
+      "https://spdx.org/licenses/LGPL-3.0+.json",
+      "https://www.gnu.org/licenses/lgpl-3.0-standalone.html",
+      "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt",
+      "https://opensource.org/licenses/LGPL-3.0"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "5519e20d4f296fbc2d0001b3"
+  },
+  {
+    "name": "GNU Lesser General Public License v3.0 only",
+    "licenseId": "LGPL-3.0-only",
+    "urls": [
+      "https://spdx.org/licenses/LGPL-3.0-only.json",
+      "https://www.gnu.org/licenses/lgpl-3.0-standalone.html",
+      "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt",
+      "https://opensource.org/licenses/LGPL-3.0"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "5519e20d4f296fbc2d0001b3"
+  },
+  {
+    "name": "GNU Lesser General Public License v3.0 or later",
+    "licenseId": "LGPL-3.0-or-later",
+    "urls": [
+      "https://spdx.org/licenses/LGPL-3.0-or-later.json",
+      "https://www.gnu.org/licenses/lgpl-3.0-standalone.html",
+      "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt",
+      "https://opensource.org/licenses/LGPL-3.0"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "5519e20d4f296fbc2d0001b3"
+  },
+  {
+    "name": "Lesser General Public License For Linguistic Resources",
+    "licenseId": "LGPLLR",
+    "urls": [
+      "https://spdx.org/licenses/LGPLLR.json",
+      "http://www-igm.univ-mlv.fr/~unitex/lgpllr.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "libpng License",
+    "licenseId": "Libpng",
+    "urls": [
+      "https://spdx.org/licenses/Libpng.json",
+      "http://www.libpng.org/pub/png/src/libpng-LICENSE.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "PNG Reference Library version 2",
+    "licenseId": "libpng-2.0",
+    "urls": [
+      "https://spdx.org/licenses/libpng-2.0.json",
+      "http://www.libpng.org/pub/png/src/libpng-LICENSE.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "libselinux public domain notice",
+    "licenseId": "libselinux-1.0",
+    "urls": [
+      "https://spdx.org/licenses/libselinux-1.0.json",
+      "https://github.com/SELinuxProject/selinux/blob/master/libselinux/LICENSE"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "libtiff License",
+    "licenseId": "libtiff",
+    "urls": [
+      "https://spdx.org/licenses/libtiff.json",
+      "https://fedoraproject.org/wiki/Licensing/libtiff"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ae8216cca83a54c002537"
+  },
+  {
+    "name": "libutil David Nugent License",
+    "licenseId": "libutil-David-Nugent",
+    "urls": [
+      "https://spdx.org/licenses/libutil-David-Nugent.json",
+      "http://web.mit.edu/freebsd/head/lib/libutil/login_ok.3",
+      "https://cgit.freedesktop.org/libbsd/tree/man/setproctitle.3bsd"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Licence Libre du Québec – Permissive version 1.1",
+    "licenseId": "LiLiQ-P-1.1",
+    "urls": [
+      "https://spdx.org/licenses/LiLiQ-P-1.1.json",
+      "https://forge.gouv.qc.ca/licence/fr/liliq-v1-1/",
+      "http://opensource.org/licenses/LiLiQ-P-1.1"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Licence Libre du Québec – Réciprocité version 1.1",
+    "licenseId": "LiLiQ-R-1.1",
+    "urls": [
+      "https://spdx.org/licenses/LiLiQ-R-1.1.json",
+      "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-liliq-r-v1-1/",
+      "http://opensource.org/licenses/LiLiQ-R-1.1"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Licence Libre du Québec – Réciprocité forte version 1.1",
+    "licenseId": "LiLiQ-Rplus-1.1",
+    "urls": [
+      "https://spdx.org/licenses/LiLiQ-Rplus-1.1.json",
+      "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-forte-liliq-r-v1-1/",
+      "http://opensource.org/licenses/LiLiQ-Rplus-1.1"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Linux man-pages Copyleft",
+    "licenseId": "Linux-man-pages-copyleft",
+    "urls": [
+      "https://spdx.org/licenses/Linux-man-pages-copyleft.json",
+      "https://www.kernel.org/doc/man-pages/licenses.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Linux Kernel Variant of OpenIB.org license",
+    "licenseId": "Linux-OpenIB",
+    "urls": [
+      "https://spdx.org/licenses/Linux-OpenIB.json",
+      "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/infiniband/core/sa.h"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Lucent Public License Version 1.0",
+    "licenseId": "LPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/LPL-1.0.json",
+      "https://opensource.org/licenses/LPL-1.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Lucent Public License v1.02",
+    "licenseId": "LPL-1.02",
+    "urls": [
+      "https://spdx.org/licenses/LPL-1.02.json",
+      "http://plan9.bell-labs.com/plan9/license.html",
+      "https://opensource.org/licenses/LPL-1.02"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a0f21f44c17155550000dd"
+  },
+  {
+    "name": "LaTeX Project Public License v1.0",
+    "licenseId": "LPPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/LPPL-1.0.json",
+      "http://www.latex-project.org/lppl/lppl-1-0.txt"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "LaTeX Project Public License v1.1",
+    "licenseId": "LPPL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/LPPL-1.1.json",
+      "http://www.latex-project.org/lppl/lppl-1-1.txt"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "LaTeX Project Public License v1.2",
+    "licenseId": "LPPL-1.2",
+    "urls": [
+      "https://spdx.org/licenses/LPPL-1.2.json",
+      "http://www.latex-project.org/lppl/lppl-1-2.txt"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "LaTeX Project Public License v1.3a",
+    "licenseId": "LPPL-1.3a",
+    "urls": [
+      "https://spdx.org/licenses/LPPL-1.3a.json",
+      "http://www.latex-project.org/lppl/lppl-1-3a.txt"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "LaTeX Project Public License v1.3c",
+    "licenseId": "LPPL-1.3c",
+    "urls": [
+      "https://spdx.org/licenses/LPPL-1.3c.json",
+      "http://www.latex-project.org/lppl/lppl-1-3c.txt",
+      "https://opensource.org/licenses/LPPL-1.3c"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a28270763c784c60000194"
+  },
+  {
+    "name": "LZMA SDK License (versions 9.11 to 9.20)",
+    "licenseId": "LZMA-SDK-9.11-to-9.20",
+    "urls": [
+      "https://spdx.org/licenses/LZMA-SDK-9.11-to-9.20.json",
+      "https://www.7-zip.org/sdk.html",
+      "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "LZMA SDK License (versions 9.22 and beyond)",
+    "licenseId": "LZMA-SDK-9.22",
+    "urls": [
+      "https://spdx.org/licenses/LZMA-SDK-9.22.json",
+      "https://www.7-zip.org/sdk.html",
+      "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "MakeIndex License",
+    "licenseId": "MakeIndex",
+    "urls": [
+      "https://spdx.org/licenses/MakeIndex.json",
+      "https://fedoraproject.org/wiki/Licensing/MakeIndex"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Minpack License",
+    "licenseId": "Minpack",
+    "urls": [
+      "https://spdx.org/licenses/Minpack.json",
+      "http://www.netlib.org/minpack/disclaimer",
+      "https://gitlab.com/libeigen/eigen/-/blob/master/COPYING.MINPACK"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "The MirOS Licence",
+    "licenseId": "MirOS",
+    "urls": [
+      "https://spdx.org/licenses/MirOS.json",
+      "https://opensource.org/licenses/MirOS"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a0f64244c17155550000ec"
+  },
+  {
+    "name": "MIT License",
+    "licenseId": "MIT",
+    "urls": ["https://spdx.org/licenses/MIT.json", "https://opensource.org/licenses/MIT"],
+    "category": "Permissive",
+    "tldrLegalId": "52c85ec302e7ac6f34000008"
+  },
+  {
+    "name": "MIT No Attribution",
+    "licenseId": "MIT-0",
+    "urls": [
+      "https://spdx.org/licenses/MIT-0.json",
+      "https://github.com/aws/mit-0",
+      "https://romanrm.net/mit-zero",
+      "https://github.com/awsdocs/aws-cloud9-user-guide/blob/master/LICENSE-SAMPLECODE"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Enlightenment License (e16)",
+    "licenseId": "MIT-advertising",
+    "urls": [
+      "https://spdx.org/licenses/MIT-advertising.json",
+      "https://fedoraproject.org/wiki/Licensing/MIT_With_Advertising"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "CMU License",
+    "licenseId": "MIT-CMU",
+    "urls": [
+      "https://spdx.org/licenses/MIT-CMU.json",
+      "https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT#CMU_Style",
+      "https://github.com/python-pillow/Pillow/blob/fffb426092c8db24a5f4b6df243a8a3c01fb63cd/LICENSE"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "576ad2936cca83a54c0024d4"
+  },
+  {
+    "name": "enna License",
+    "licenseId": "MIT-enna",
+    "urls": [
+      "https://spdx.org/licenses/MIT-enna.json",
+      "https://fedoraproject.org/wiki/Licensing/MIT#enna"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "576add9f6cca83a54c002515"
+  },
+  {
+    "name": "feh License",
+    "licenseId": "MIT-feh",
+    "urls": [
+      "https://spdx.org/licenses/MIT-feh.json",
+      "https://fedoraproject.org/wiki/Licensing/MIT#feh"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "576ae3a36cca83a54c002523"
+  },
+  {
+    "name": "MIT License Modern Variant",
+    "licenseId": "MIT-Modern-Variant",
+    "urls": [
+      "https://spdx.org/licenses/MIT-Modern-Variant.json",
+      "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants",
+      "https://ptolemy.berkeley.edu/copyright.htm",
+      "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "MIT Open Group variant",
+    "licenseId": "MIT-open-group",
+    "urls": [
+      "https://spdx.org/licenses/MIT-open-group.json",
+      "https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING",
+      "https://gitlab.freedesktop.org/xorg/app/xvinfo/-/blob/master/COPYING",
+      "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING",
+      "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "MIT +no-false-attribs license",
+    "licenseId": "MITNFA",
+    "urls": [
+      "https://spdx.org/licenses/MITNFA.json",
+      "https://fedoraproject.org/wiki/Licensing/MITNFA"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Motosoto License",
+    "licenseId": "Motosoto",
+    "urls": [
+      "https://spdx.org/licenses/Motosoto.json",
+      "https://opensource.org/licenses/Motosoto"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "mpi Permissive License",
+    "licenseId": "mpi-permissive",
+    "urls": [
+      "https://spdx.org/licenses/mpi-permissive.json",
+      "https://sources.debian.org/src/openmpi/4.1.0-10/ompi/debuggers/msgq_interface.h/?hl=19#L19"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "mpich2 License",
+    "licenseId": "mpich2",
+    "urls": [
+      "https://spdx.org/licenses/mpich2.json",
+      "https://fedoraproject.org/wiki/Licensing/MIT"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Mozilla Public License 1.0",
+    "licenseId": "MPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/MPL-1.0.json",
+      "http://www.mozilla.org/MPL/MPL-1.0.html",
+      "https://opensource.org/licenses/MPL-1.0"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "559fe84347cdaa075e00033c"
+  },
+  {
+    "name": "Mozilla Public License 1.1",
+    "licenseId": "MPL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/MPL-1.1.json",
+      "http://www.mozilla.org/MPL/MPL-1.1.html",
+      "https://opensource.org/licenses/MPL-1.1"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a218ac763c784c60000037"
+  },
+  {
+    "name": "Mozilla Public License 2.0",
+    "licenseId": "MPL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/MPL-2.0.json",
+      "https://www.mozilla.org/MPL/2.0/",
+      "https://opensource.org/licenses/MPL-2.0"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "52c864b19f62d56435000024"
+  },
+  {
+    "name": "Mozilla Public License 2.0 (no copyleft exception)",
+    "licenseId": "MPL-2.0-no-copyleft-exception",
+    "urls": [
+      "https://spdx.org/licenses/MPL-2.0-no-copyleft-exception.json",
+      "https://www.mozilla.org/MPL/2.0/",
+      "https://opensource.org/licenses/MPL-2.0"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "mplus Font License",
+    "licenseId": "mplus",
+    "urls": [
+      "https://spdx.org/licenses/mplus.json",
+      "https://fedoraproject.org/wiki/Licensing:Mplus?rd=Licensing/mplus"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Microsoft Limited Public License",
+    "licenseId": "MS-LPL",
+    "urls": [
+      "https://spdx.org/licenses/MS-LPL.json",
+      "https://www.openhub.net/licenses/mslpl",
+      "https://github.com/gabegundy/atlserver/blob/master/License.txt",
+      "https://en.wikipedia.org/wiki/Shared_Source_Initiative#Microsoft_Limited_Public_License_(Ms-LPL)"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Microsoft Public License",
+    "licenseId": "MS-PL",
+    "urls": [
+      "https://spdx.org/licenses/MS-PL.json",
+      "http://www.microsoft.com/opensource/licenses.mspx",
+      "https://opensource.org/licenses/MS-PL"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "52c85f2802e7ac6f34000016"
+  },
+  {
+    "name": "Microsoft Reciprocal License",
+    "licenseId": "MS-RL",
+    "urls": [
+      "https://spdx.org/licenses/MS-RL.json",
+      "http://www.microsoft.com/opensource/licenses.mspx",
+      "https://opensource.org/licenses/MS-RL"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "52e58bdb81519e003b0000c4"
+  },
+  {
+    "name": "Matrix Template Library License",
+    "licenseId": "MTLL",
+    "urls": [
+      "https://spdx.org/licenses/MTLL.json",
+      "https://fedoraproject.org/wiki/Licensing/Matrix_Template_Library_License"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Mulan Permissive Software License, Version 1",
+    "licenseId": "MulanPSL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/MulanPSL-1.0.json",
+      "https://license.coscl.org.cn/MulanPSL/",
+      "https://github.com/yuwenlong/longphp/blob/25dfb70cc2a466dc4bb55ba30901cbce08d164b5/LICENSE"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Mulan Permissive Software License, Version 2",
+    "licenseId": "MulanPSL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/MulanPSL-2.0.json",
+      "https://license.coscl.org.cn/MulanPSL2/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Multics License",
+    "licenseId": "Multics",
+    "urls": [
+      "https://spdx.org/licenses/Multics.json",
+      "https://opensource.org/licenses/Multics"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a0f7bd44c17155550000f7"
+  },
+  {
+    "name": "Mup License",
+    "licenseId": "Mup",
+    "urls": [
+      "https://spdx.org/licenses/Mup.json",
+      "https://fedoraproject.org/wiki/Licensing/Mup"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ae8d56cca83a54c00253c"
+  },
+  {
+    "name": "Nara Institute of Science and Technology License (2003)",
+    "licenseId": "NAIST-2003",
+    "urls": [
+      "https://spdx.org/licenses/NAIST-2003.json",
+      "https://enterprise.dejacode.com/licenses/public/naist-2003/#license-text",
+      "https://github.com/nodejs/node/blob/4a19cc8947b1bba2b2d27816ec3d0edf9b28e503/LICENSE#L343"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "NASA Open Source Agreement 1.3",
+    "licenseId": "NASA-1.3",
+    "urls": [
+      "https://spdx.org/licenses/NASA-1.3.json",
+      "http://ti.arc.nasa.gov/opensource/nosa/",
+      "https://opensource.org/licenses/NASA-1.3"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a0f96844c1715555000106"
+  },
+  {
+    "name": "Naumen Public License",
+    "licenseId": "Naumen",
+    "urls": [
+      "https://spdx.org/licenses/Naumen.json",
+      "https://opensource.org/licenses/Naumen"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "53a0fcb644c1715555000115"
+  },
+  {
+    "name": "Net Boolean Public License v1",
+    "licenseId": "NBPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/NBPL-1.0.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=37b4b3f6cc4bf34e1d3dec61e69914b9819d8894"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a0fdfd44c1715555000123"
+  },
+  {
+    "name": "Non-Commercial Government Licence",
+    "licenseId": "NCGL-UK-2.0",
+    "urls": [
+      "https://spdx.org/licenses/NCGL-UK-2.0.json",
+      "http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "University of Illinois/NCSA Open Source License",
+    "licenseId": "NCSA",
+    "urls": [
+      "https://spdx.org/licenses/NCSA.json",
+      "http://otm.illinois.edu/uiuc_openSource",
+      "https://opensource.org/licenses/NCSA"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "52e583b081519e003b000067"
+  },
+  {
+    "name": "Net-SNMP License",
+    "licenseId": "Net-SNMP",
+    "urls": [
+      "https://spdx.org/licenses/Net-SNMP.json",
+      "http://net-snmp.sourceforge.net/about/license.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "NetCDF license",
+    "licenseId": "NetCDF",
+    "urls": [
+      "https://spdx.org/licenses/NetCDF.json",
+      "http://www.unidata.ucar.edu/software/netcdf/copyright.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Newsletr License",
+    "licenseId": "Newsletr",
+    "urls": [
+      "https://spdx.org/licenses/Newsletr.json",
+      "https://fedoraproject.org/wiki/Licensing/Newsletr"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576ae9e06cca83a54c002542"
+  },
+  {
+    "name": "Nethack General Public License",
+    "licenseId": "NGPL",
+    "urls": [
+      "https://spdx.org/licenses/NGPL.json",
+      "https://opensource.org/licenses/NGPL"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a0ff8844c1715555000131"
+  },
+  {
+    "name": "NICTA Public Software License, Version 1.0",
+    "licenseId": "NICTA-1.0",
+    "urls": [
+      "https://spdx.org/licenses/NICTA-1.0.json",
+      "https://opensource.apple.com/source/mDNSResponder/mDNSResponder-320.10/mDNSPosix/nss_ReadMe.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "NIST Public Domain Notice",
+    "licenseId": "NIST-PD",
+    "urls": [
+      "https://spdx.org/licenses/NIST-PD.json",
+      "https://github.com/tcheneau/simpleRPL/blob/e645e69e38dd4e3ccfeceb2db8cba05b7c2e0cd3/LICENSE.txt",
+      "https://github.com/tcheneau/Routing/blob/f09f46fcfe636107f22f2c98348188a65a135d98/README.md"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "NIST Public Domain Notice with license fallback",
+    "licenseId": "NIST-PD-fallback",
+    "urls": [
+      "https://spdx.org/licenses/NIST-PD-fallback.json",
+      "https://github.com/usnistgov/jsip/blob/59700e6926cbe96c5cdae897d9a7d2656b42abe3/LICENSE",
+      "https://github.com/usnistgov/fipy/blob/86aaa5c2ba2c6f1be19593c5986071cf6568cc34/LICENSE.rst"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Norwegian Licence for Open Government Data (NLOD) 1.0",
+    "licenseId": "NLOD-1.0",
+    "urls": [
+      "https://spdx.org/licenses/NLOD-1.0.json",
+      "http://data.norge.no/nlod/en/1.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Norwegian Licence for Open Government Data (NLOD) 2.0",
+    "licenseId": "NLOD-2.0",
+    "urls": [
+      "https://spdx.org/licenses/NLOD-2.0.json",
+      "http://data.norge.no/nlod/en/2.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "No Limit Public License",
+    "licenseId": "NLPL",
+    "urls": [
+      "https://spdx.org/licenses/NLPL.json",
+      "https://fedoraproject.org/wiki/Licensing/NLPL"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "576aea4e6cca83a54c002548"
+  },
+  {
+    "name": "Nokia Open Source License",
+    "licenseId": "Nokia",
+    "urls": [
+      "https://spdx.org/licenses/Nokia.json",
+      "https://opensource.org/licenses/nokia"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a392c3763c784c600001fd"
+  },
+  {
+    "name": "Netizen Open Source License",
+    "licenseId": "NOSL",
+    "urls": [
+      "https://spdx.org/licenses/NOSL.json",
+      "http://bits.netizen.com.au/licenses/NOSL/nosl.txt"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a389ff763c784c600001b1"
+  },
+  {
+    "name": "Noweb License",
+    "licenseId": "Noweb",
+    "urls": [
+      "https://spdx.org/licenses/Noweb.json",
+      "https://fedoraproject.org/wiki/Licensing/Noweb"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576aeabf6cca83a54c00254d"
+  },
+  {
+    "name": "Netscape Public License v1.0",
+    "licenseId": "NPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/NPL-1.0.json",
+      "http://www.mozilla.org/MPL/NPL/1.0/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Netscape Public License v1.1",
+    "licenseId": "NPL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/NPL-1.1.json",
+      "http://www.mozilla.org/MPL/NPL/1.1/"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a38e30763c784c600001de"
+  },
+  {
+    "name": "Non-Profit Open Software License 3.0",
+    "licenseId": "NPOSL-3.0",
+    "urls": [
+      "https://spdx.org/licenses/NPOSL-3.0.json",
+      "https://opensource.org/licenses/NOSL3.0"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a1380544c1715555000145"
+  },
+  {
+    "name": "NRL License",
+    "licenseId": "NRL",
+    "urls": [
+      "https://spdx.org/licenses/NRL.json",
+      "http://web.mit.edu/network/isakmp/nrllicense.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "NTP License",
+    "licenseId": "NTP",
+    "urls": [
+      "https://spdx.org/licenses/NTP.json",
+      "https://opensource.org/licenses/NTP"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a13d8844c1715555000166"
+  },
+  {
+    "name": "NTP No Attribution",
+    "licenseId": "NTP-0",
+    "urls": [
+      "https://spdx.org/licenses/NTP-0.json",
+      "https://github.com/tytso/e2fsprogs/blob/master/lib/et/et_name.c"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Nunit License",
+    "licenseId": "Nunit",
+    "urls": [
+      "https://spdx.org/licenses/Nunit.json",
+      "https://fedoraproject.org/wiki/Licensing/Nunit"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Open Use of Data Agreement v1.0",
+    "licenseId": "O-UDA-1.0",
+    "urls": [
+      "https://spdx.org/licenses/O-UDA-1.0.json",
+      "https://github.com/microsoft/Open-Use-of-Data-Agreement/blob/v1.0/O-UDA-1.0.md",
+      "https://cdla.dev/open-use-of-data-agreement-v1-0/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Open CASCADE Technology Public License",
+    "licenseId": "OCCT-PL",
+    "urls": [
+      "https://spdx.org/licenses/OCCT-PL.json",
+      "http://www.opencascade.com/content/occt-public-license"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "57ab3a0e4f65bf990f0000b3"
+  },
+  {
+    "name": "OCLC Research Public License 2.0",
+    "licenseId": "OCLC-2.0",
+    "urls": [
+      "https://spdx.org/licenses/OCLC-2.0.json",
+      "http://www.oclc.org/research/activities/software/license/v2final.htm",
+      "https://opensource.org/licenses/OCLC-2.0"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a1d4ae44c171555500018a"
+  },
+  {
+    "name": "Open Data Commons Open Database License v1.0",
+    "licenseId": "ODbL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/ODbL-1.0.json",
+      "http://www.opendatacommons.org/licenses/odbl/1.0/",
+      "https://opendatacommons.org/licenses/odbl/1-0/"
+    ],
+    "category": "Strongly Protective"
+  },
+  {
+    "name": "Open Data Commons Attribution License v1.0",
+    "licenseId": "ODC-By-1.0",
+    "urls": [
+      "https://spdx.org/licenses/ODC-By-1.0.json",
+      "https://opendatacommons.org/licenses/by/1.0/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "SIL Open Font License 1.0",
+    "licenseId": "OFL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/OFL-1.0.json",
+      "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "SIL Open Font License 1.0 with no Reserved Font Name",
+    "licenseId": "OFL-1.0-no-RFN",
+    "urls": [
+      "https://spdx.org/licenses/OFL-1.0-no-RFN.json",
+      "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "SIL Open Font License 1.0 with Reserved Font Name",
+    "licenseId": "OFL-1.0-RFN",
+    "urls": [
+      "https://spdx.org/licenses/OFL-1.0-RFN.json",
+      "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "SIL Open Font License 1.1",
+    "licenseId": "OFL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/OFL-1.1.json",
+      "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web",
+      "https://opensource.org/licenses/OFL-1.1"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "52e58bac81519e003b0000b8"
+  },
+  {
+    "name": "SIL Open Font License 1.1 with no Reserved Font Name",
+    "licenseId": "OFL-1.1-no-RFN",
+    "urls": [
+      "https://spdx.org/licenses/OFL-1.1-no-RFN.json",
+      "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web",
+      "https://opensource.org/licenses/OFL-1.1"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "52e58bac81519e003b0000b8"
+  },
+  {
+    "name": "SIL Open Font License 1.1 with Reserved Font Name",
+    "licenseId": "OFL-1.1-RFN",
+    "urls": [
+      "https://spdx.org/licenses/OFL-1.1-RFN.json",
+      "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web",
+      "https://opensource.org/licenses/OFL-1.1"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "52e58bac81519e003b0000b8"
+  },
+  {
+    "name": "OGC Software License, Version 1.0",
+    "licenseId": "OGC-1.0",
+    "urls": [
+      "https://spdx.org/licenses/OGC-1.0.json",
+      "https://www.ogc.org/ogc/software/1.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Taiwan Open Government Data License, version 1.0",
+    "licenseId": "OGDL-Taiwan-1.0",
+    "urls": [
+      "https://spdx.org/licenses/OGDL-Taiwan-1.0.json",
+      "https://data.gov.tw/license"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Open Government Licence - Canada",
+    "licenseId": "OGL-Canada-2.0",
+    "urls": [
+      "https://spdx.org/licenses/OGL-Canada-2.0.json",
+      "https://open.canada.ca/en/open-government-licence-canada"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Open Government Licence v1.0",
+    "licenseId": "OGL-UK-1.0",
+    "urls": [
+      "https://spdx.org/licenses/OGL-UK-1.0.json",
+      "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Open Government Licence v2.0",
+    "licenseId": "OGL-UK-2.0",
+    "urls": [
+      "https://spdx.org/licenses/OGL-UK-2.0.json",
+      "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Open Government Licence v3.0",
+    "licenseId": "OGL-UK-3.0",
+    "urls": [
+      "https://spdx.org/licenses/OGL-UK-3.0.json",
+      "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "572094d03368aff90b000c1b"
+  },
+  {
+    "name": "Open Group Test Suite License",
+    "licenseId": "OGTSL",
+    "urls": [
+      "https://spdx.org/licenses/OGTSL.json",
+      "http://www.opengroup.org/testing/downloads/The_Open_Group_TSL.txt",
+      "https://opensource.org/licenses/OGTSL"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a1dcea44c17155550001a8"
+  },
+  {
+    "name": "Open LDAP Public License v1.1",
+    "licenseId": "OLDAP-1.1",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-1.1.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=806557a5ad59804ef3a44d5abfbe91d706b0791f"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v1.2",
+    "licenseId": "OLDAP-1.2",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-1.2.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=42b0383c50c299977b5893ee695cf4e486fb0dc7"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v1.3",
+    "licenseId": "OLDAP-1.3",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-1.3.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=e5f8117f0ce088d0bd7a8e18ddf37eaa40eb09b1"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v1.4",
+    "licenseId": "OLDAP-1.4",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-1.4.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=c9f95c2f3f2ffb5e0ae55fe7388af75547660941"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v2.0 (or possibly 2.0A and 2.0B)",
+    "licenseId": "OLDAP-2.0",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-2.0.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=cbf50f4e1185a21abd4c0a54d3f4341fe28f36ea"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v2.0.1",
+    "licenseId": "OLDAP-2.0.1",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-2.0.1.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=b6d68acd14e51ca3aab4428bf26522aa74873f0e"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v2.1",
+    "licenseId": "OLDAP-2.1",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-2.1.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=b0d176738e96a0d3b9f85cb51e140a86f21be715"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v2.2",
+    "licenseId": "OLDAP-2.2",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-2.2.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=470b0c18ec67621c85881b2733057fecf4a1acc3"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v2.2.1",
+    "licenseId": "OLDAP-2.2.1",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-2.2.1.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=4bc786f34b50aa301be6f5600f58a980070f481e"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License 2.2.2",
+    "licenseId": "OLDAP-2.2.2",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-2.2.2.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=df2cc1e21eb7c160695f5b7cffd6296c151ba188"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v2.3",
+    "licenseId": "OLDAP-2.3",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-2.3.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=d32cf54a32d581ab475d23c810b0a7fbaf8d63c3"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v2.4",
+    "licenseId": "OLDAP-2.4",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-2.4.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=cd1284c4a91a8a380d904eee68d1583f989ed386"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v2.5",
+    "licenseId": "OLDAP-2.5",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-2.5.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=6852b9d90022e8593c98205413380536b1b5a7cf"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v2.6",
+    "licenseId": "OLDAP-2.6",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-2.6.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=1cae062821881f41b73012ba816434897abf4205"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v2.7",
+    "licenseId": "OLDAP-2.7",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-2.7.json",
+      "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=47c2415c1df81556eeb39be6cad458ef87c534a2"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open LDAP Public License v2.8",
+    "licenseId": "OLDAP-2.8",
+    "urls": [
+      "https://spdx.org/licenses/OLDAP-2.8.json",
+      "http://www.openldap.org/software/release/license.html"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Open Market License",
+    "licenseId": "OML",
+    "urls": [
+      "https://spdx.org/licenses/OML.json",
+      "https://fedoraproject.org/wiki/Licensing/Open_Market_License"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "OpenSSL License",
+    "licenseId": "OpenSSL",
+    "urls": [
+      "https://spdx.org/licenses/OpenSSL.json",
+      "http://www.openssl.org/source/license.html"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "53a1e08b44c17155550001c2"
+  },
+  {
+    "name": "Open Public License v1.0",
+    "licenseId": "OPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/OPL-1.0.json",
+      "http://old.koalateam.com/jackaroo/OPL_1_0.TXT",
+      "https://fedoraproject.org/wiki/Licensing/Open_Public_License"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Open Publication License v1.0",
+    "licenseId": "OPUBL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/OPUBL-1.0.json",
+      "http://opencontent.org/openpub/",
+      "https://www.debian.org/opl",
+      "https://www.ctan.org/license/opl"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "OSET Public License version 2.1",
+    "licenseId": "OSET-PL-2.1",
+    "urls": [
+      "https://spdx.org/licenses/OSET-PL-2.1.json",
+      "http://www.osetfoundation.org/public-license",
+      "https://opensource.org/licenses/OPL-2.1"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Open Software License 1.0",
+    "licenseId": "OSL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/OSL-1.0.json",
+      "https://opensource.org/licenses/OSL-1.0"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "55a67e8c47cdaa075e000401"
+  },
+  {
+    "name": "Open Software License 1.1",
+    "licenseId": "OSL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/OSL-1.1.json",
+      "https://fedoraproject.org/wiki/Licensing/OSL1.1"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "55a6815247cdaa075e000410"
+  },
+  {
+    "name": "Open Software License 2.0",
+    "licenseId": "OSL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/OSL-2.0.json",
+      "http://web.archive.org/web/20041020171434/http://www.rosenlaw.com/osl2.0.html"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "55a69b6047cdaa075e00042c"
+  },
+  {
+    "name": "Open Software License 2.1",
+    "licenseId": "OSL-2.1",
+    "urls": [
+      "https://spdx.org/licenses/OSL-2.1.json",
+      "http://web.archive.org/web/20050212003940/http://www.rosenlaw.com/osl21.htm",
+      "https://opensource.org/licenses/OSL-2.1"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "55a69be447cdaa075e00043a"
+  },
+  {
+    "name": "Open Software License 3.0",
+    "licenseId": "OSL-3.0",
+    "urls": [
+      "https://spdx.org/licenses/OSL-3.0.json",
+      "https://web.archive.org/web/20120101081418/http://rosenlaw.com:80/OSL3.0.htm",
+      "https://opensource.org/licenses/OSL-3.0"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "539a8b2fb8c2c0604500013e"
+  },
+  {
+    "name": "The Parity Public License 6.0.0",
+    "licenseId": "Parity-6.0.0",
+    "urls": [
+      "https://spdx.org/licenses/Parity-6.0.0.json",
+      "https://paritylicense.com/versions/6.0.0.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "The Parity Public License 7.0.0",
+    "licenseId": "Parity-7.0.0",
+    "urls": [
+      "https://spdx.org/licenses/Parity-7.0.0.json",
+      "https://paritylicense.com/versions/7.0.0.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Open Data Commons Public Domain Dedication & License 1.0",
+    "licenseId": "PDDL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/PDDL-1.0.json",
+      "http://opendatacommons.org/licenses/pddl/1.0/",
+      "https://opendatacommons.org/licenses/pddl/"
+    ],
+    "category": "Public Domain"
+  },
+  {
+    "name": "PHP License v3.0",
+    "licenseId": "PHP-3.0",
+    "urls": [
+      "https://spdx.org/licenses/PHP-3.0.json",
+      "http://www.php.net/license/3_0.txt",
+      "https://opensource.org/licenses/PHP-3.0"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "52e5825181519e003b000018"
+  },
+  {
+    "name": "PHP License v3.01",
+    "licenseId": "PHP-3.01",
+    "urls": [
+      "https://spdx.org/licenses/PHP-3.01.json",
+      "http://www.php.net/license/3_01.txt"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "574ef2ab6cca83a54c001692"
+  },
+  {
+    "name": "Plexus Classworlds License",
+    "licenseId": "Plexus",
+    "urls": [
+      "https://spdx.org/licenses/Plexus.json",
+      "https://fedoraproject.org/wiki/Licensing/Plexus_Classworlds_License"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "PolyForm Noncommercial License 1.0.0",
+    "licenseId": "PolyForm-Noncommercial-1.0.0",
+    "urls": [
+      "https://spdx.org/licenses/PolyForm-Noncommercial-1.0.0.json",
+      "https://polyformproject.org/licenses/noncommercial/1.0.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "PolyForm Small Business License 1.0.0",
+    "licenseId": "PolyForm-Small-Business-1.0.0",
+    "urls": [
+      "https://spdx.org/licenses/PolyForm-Small-Business-1.0.0.json",
+      "https://polyformproject.org/licenses/small-business/1.0.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "PostgreSQL License",
+    "licenseId": "PostgreSQL",
+    "urls": [
+      "https://spdx.org/licenses/PostgreSQL.json",
+      "http://www.postgresql.org/about/licence",
+      "https://opensource.org/licenses/PostgreSQL"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a1e44e44c17155550001cf"
+  },
+  {
+    "name": "Python Software Foundation License 2.0",
+    "licenseId": "PSF-2.0",
+    "urls": [
+      "https://spdx.org/licenses/PSF-2.0.json",
+      "https://opensource.org/licenses/Python-2.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "psfrag License",
+    "licenseId": "psfrag",
+    "urls": [
+      "https://spdx.org/licenses/psfrag.json",
+      "https://fedoraproject.org/wiki/Licensing/psfrag"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576aeb486cca83a54c002552"
+  },
+  {
+    "name": "psutils License",
+    "licenseId": "psutils",
+    "urls": [
+      "https://spdx.org/licenses/psutils.json",
+      "https://fedoraproject.org/wiki/Licensing/psutils"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576aeb806cca83a54c002557"
+  },
+  {
+    "name": "Python License 2.0",
+    "licenseId": "Python-2.0",
+    "urls": [
+      "https://spdx.org/licenses/Python-2.0.json",
+      "https://opensource.org/licenses/Python-2.0"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "52e58c6381519e003b0000d2"
+  },
+  {
+    "name": "Python License 2.0.1",
+    "licenseId": "Python-2.0.1",
+    "urls": [
+      "https://spdx.org/licenses/Python-2.0.1.json",
+      "https://www.python.org/download/releases/2.0.1/license/",
+      "https://docs.python.org/3/license.html",
+      "https://github.com/python/cpython/blob/main/LICENSE"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Qhull License",
+    "licenseId": "Qhull",
+    "urls": [
+      "https://spdx.org/licenses/Qhull.json",
+      "https://fedoraproject.org/wiki/Licensing/Qhull"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576aeba26cca83a54c00255c"
+  },
+  {
+    "name": "Q Public License 1.0",
+    "licenseId": "QPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/QPL-1.0.json",
+      "http://doc.qt.nokia.com/3.3/license.html",
+      "https://opensource.org/licenses/QPL-1.0",
+      "https://doc.qt.io/archives/3.3/license.html"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "53a1e57644c17155550001da"
+  },
+  {
+    "name": "Rdisc License",
+    "licenseId": "Rdisc",
+    "urls": [
+      "https://spdx.org/licenses/Rdisc.json",
+      "https://fedoraproject.org/wiki/Licensing/Rdisc_License"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "576aebc36cca83a54c002561"
+  },
+  {
+    "name": "Red Hat eCos Public License v1.1",
+    "licenseId": "RHeCos-1.1",
+    "urls": [
+      "https://spdx.org/licenses/RHeCos-1.1.json",
+      "http://ecos.sourceware.org/old-license.html"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a1e7bd44c17155550001e6"
+  },
+  {
+    "name": "Reciprocal Public License 1.1",
+    "licenseId": "RPL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/RPL-1.1.json",
+      "https://opensource.org/licenses/RPL-1.1"
+    ],
+    "category": "Strongly Protective"
+  },
+  {
+    "name": "Reciprocal Public License 1.5",
+    "licenseId": "RPL-1.5",
+    "urls": [
+      "https://spdx.org/licenses/RPL-1.5.json",
+      "https://opensource.org/licenses/RPL-1.5"
+    ],
+    "category": "Strongly Protective",
+    "tldrLegalId": "53a3a67c763c784c6000028b"
+  },
+  {
+    "name": "RealNetworks Public Source License v1.0",
+    "licenseId": "RPSL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/RPSL-1.0.json",
+      "https://helixcommunity.org/content/rpsl",
+      "https://opensource.org/licenses/RPSL-1.0"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a3a0fc763c784c6000026f"
+  },
+  {
+    "name": "RSA Message-Digest License",
+    "licenseId": "RSA-MD",
+    "urls": [
+      "https://spdx.org/licenses/RSA-MD.json",
+      "http://www.faqs.org/rfcs/rfc1321.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Ricoh Source Code Public License",
+    "licenseId": "RSCPL",
+    "urls": [
+      "https://spdx.org/licenses/RSCPL.json",
+      "http://wayback.archive.org/web/20060715140826/http://www.risource.org/RPL/RPL-1.0A.shtml",
+      "https://opensource.org/licenses/RSCPL"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a1e9ac44c17155550001f5"
+  },
+  {
+    "name": "Ruby License",
+    "licenseId": "Ruby",
+    "urls": [
+      "https://spdx.org/licenses/Ruby.json",
+      "http://www.ruby-lang.org/en/LICENSE.txt"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "53a1eb6344c1715555000203"
+  },
+  {
+    "name": "Sax Public Domain Notice",
+    "licenseId": "SAX-PD",
+    "urls": [
+      "https://spdx.org/licenses/SAX-PD.json",
+      "http://www.saxproject.org/copying.html"
+    ],
+    "category": "Public Domain",
+    "tldrLegalId": "53a1ec6d44c171555500020f"
+  },
+  {
+    "name": "Saxpath License",
+    "licenseId": "Saxpath",
+    "urls": [
+      "https://spdx.org/licenses/Saxpath.json",
+      "https://fedoraproject.org/wiki/Licensing/Saxpath_License"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "SCEA Shared Source License",
+    "licenseId": "SCEA",
+    "urls": [
+      "https://spdx.org/licenses/SCEA.json",
+      "http://research.scea.com/scea_shared_source_license.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Scheme Language Report License",
+    "licenseId": "SchemeReport",
+    "urls": [
+      "https://spdx.org/licenses/SchemeReport.json"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Sendmail License",
+    "licenseId": "Sendmail",
+    "urls": [
+      "https://spdx.org/licenses/Sendmail.json",
+      "http://www.sendmail.com/pdfs/open_source/sendmail_license.pdf",
+      "https://web.archive.org/web/20160322142305/https://www.sendmail.com/pdfs/open_source/sendmail_license.pdf"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "5773eb5a6cca83a54c002ae3"
+  },
+  {
+    "name": "Sendmail License 8.23",
+    "licenseId": "Sendmail-8.23",
+    "urls": [
+      "https://spdx.org/licenses/Sendmail-8.23.json",
+      "https://www.proofpoint.com/sites/default/files/sendmail-license.pdf",
+      "https://web.archive.org/web/20181003101040/https://www.proofpoint.com/sites/default/files/sendmail-license.pdf"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "SGI Free Software License B v1.0",
+    "licenseId": "SGI-B-1.0",
+    "urls": [
+      "https://spdx.org/licenses/SGI-B-1.0.json",
+      "http://oss.sgi.com/projects/FreeB/SGIFreeSWLicB.1.0.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "SGI Free Software License B v1.1",
+    "licenseId": "SGI-B-1.1",
+    "urls": [
+      "https://spdx.org/licenses/SGI-B-1.1.json",
+      "http://oss.sgi.com/projects/FreeB/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "SGI Free Software License B v2.0",
+    "licenseId": "SGI-B-2.0",
+    "urls": [
+      "https://spdx.org/licenses/SGI-B-2.0.json",
+      "http://oss.sgi.com/projects/FreeB/SGIFreeSWLicB.2.0.pdf"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a1ed1544c1715555000218"
+  },
+  {
+    "name": "Solderpad Hardware License v0.5",
+    "licenseId": "SHL-0.5",
+    "urls": [
+      "https://spdx.org/licenses/SHL-0.5.json",
+      "https://solderpad.org/licenses/SHL-0.5/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Solderpad Hardware License, Version 0.51",
+    "licenseId": "SHL-0.51",
+    "urls": [
+      "https://spdx.org/licenses/SHL-0.51.json",
+      "https://solderpad.org/licenses/SHL-0.51/"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Simple Public License 2.0",
+    "licenseId": "SimPL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/SimPL-2.0.json",
+      "https://opensource.org/licenses/SimPL-2.0"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "52e5827b81519e003b000023"
+  },
+  {
+    "name": "Sun Industry Standards Source License v1.1",
+    "licenseId": "SISSL",
+    "urls": [
+      "https://spdx.org/licenses/SISSL.json",
+      "http://www.openoffice.org/licenses/sissl_license.html",
+      "https://opensource.org/licenses/SISSL"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "Sun Industry Standards Source License v1.2",
+    "licenseId": "SISSL-1.2",
+    "urls": [
+      "https://spdx.org/licenses/SISSL-1.2.json",
+      "http://gridscheduler.sourceforge.net/Gridengine_SISSL_license.html"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a2376f763c784c6000006e"
+  },
+  {
+    "name": "Sleepycat License",
+    "licenseId": "Sleepycat",
+    "urls": [
+      "https://spdx.org/licenses/Sleepycat.json",
+      "https://opensource.org/licenses/Sleepycat"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "52d2df8fb6ce47e30400000a"
+  },
+  {
+    "name": "Standard ML of New Jersey License",
+    "licenseId": "SMLNJ",
+    "urls": [
+      "https://spdx.org/licenses/SMLNJ.json",
+      "https://www.smlnj.org/license.html"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a1ef3544c1715555000240"
+  },
+  {
+    "name": "Secure Messaging Protocol Public License",
+    "licenseId": "SMPPL",
+    "urls": [
+      "https://spdx.org/licenses/SMPPL.json",
+      "https://github.com/dcblake/SMP/blob/master/Documentation/License.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "SNIA Public License 1.1",
+    "licenseId": "SNIA",
+    "urls": [
+      "https://spdx.org/licenses/SNIA.json",
+      "https://fedoraproject.org/wiki/Licensing/SNIA_Public_License"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Spencer License 86",
+    "licenseId": "Spencer-86",
+    "urls": [
+      "https://spdx.org/licenses/Spencer-86.json",
+      "https://fedoraproject.org/wiki/Licensing/Henry_Spencer_Reg-Ex_Library_License"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Spencer License 94",
+    "licenseId": "Spencer-94",
+    "urls": [
+      "https://spdx.org/licenses/Spencer-94.json",
+      "https://fedoraproject.org/wiki/Licensing/Henry_Spencer_Reg-Ex_Library_License"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Spencer License 99",
+    "licenseId": "Spencer-99",
+    "urls": [
+      "https://spdx.org/licenses/Spencer-99.json",
+      "http://www.opensource.apple.com/source/tcl/tcl-5/tcl/generic/regfronts.c"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Sun Public License v1.0",
+    "licenseId": "SPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/SPL-1.0.json",
+      "https://opensource.org/licenses/SPL-1.0"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a3955b763c784c6000021d"
+  },
+  {
+    "name": "SSH OpenSSH license",
+    "licenseId": "SSH-OpenSSH",
+    "urls": [
+      "https://spdx.org/licenses/SSH-OpenSSH.json",
+      "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/LICENCE#L10"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "SSH short notice",
+    "licenseId": "SSH-short",
+    "urls": [
+      "https://spdx.org/licenses/SSH-short.json",
+      "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h",
+      "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1",
+      "https://joinup.ec.europa.eu/svn/lesoll/trunk/italc/lib/src/dsa_key.cpp"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Server Side Public License, v 1",
+    "licenseId": "SSPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/SSPL-1.0.json",
+      "https://www.mongodb.com/licensing/server-side-public-license"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Standard ML of New Jersey License",
+    "licenseId": "StandardML-NJ",
+    "urls": [
+      "https://spdx.org/licenses/StandardML-NJ.json",
+      "http://www.smlnj.org//license.html"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a1ef3544c1715555000240"
+  },
+  {
+    "name": "SugarCRM Public License v1.1.3",
+    "licenseId": "SugarCRM-1.1.3",
+    "urls": [
+      "https://spdx.org/licenses/SugarCRM-1.1.3.json",
+      "http://www.sugarcrm.com/crm/SPL"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a1fa1644c1715555000259"
+  },
+  {
+    "name": "Scheme Widget Library (SWL) Software License Agreement",
+    "licenseId": "SWL",
+    "urls": [
+      "https://spdx.org/licenses/SWL.json",
+      "https://fedoraproject.org/wiki/Licensing/SWL"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "TAPR Open Hardware License v1.0",
+    "licenseId": "TAPR-OHL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/TAPR-OHL-1.0.json",
+      "https://www.tapr.org/OHL"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "TCL/TK License",
+    "licenseId": "TCL",
+    "urls": [
+      "https://spdx.org/licenses/TCL.json",
+      "http://www.tcl.tk/software/tcltk/license.html",
+      "https://fedoraproject.org/wiki/Licensing/TCL"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "55bfa91700eb7076210001cb"
+  },
+  {
+    "name": "TCP Wrappers License",
+    "licenseId": "TCP-wrappers",
+    "urls": [
+      "https://spdx.org/licenses/TCP-wrappers.json",
+      "http://rc.quest.com/topics/openssh/license.php#tcpwrappers"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "TMate Open Source License",
+    "licenseId": "TMate",
+    "urls": [
+      "https://spdx.org/licenses/TMate.json",
+      "http://svnkit.com/license.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "TORQUE v2.5+ Software License v1.1",
+    "licenseId": "TORQUE-1.1",
+    "urls": [
+      "https://spdx.org/licenses/TORQUE-1.1.json",
+      "https://fedoraproject.org/wiki/Licensing/TORQUEv1.1"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "5773f3d36cca83a54c002b13"
+  },
+  {
+    "name": "Trusster Open Source License",
+    "licenseId": "TOSL",
+    "urls": [
+      "https://spdx.org/licenses/TOSL.json",
+      "https://fedoraproject.org/wiki/Licensing/TOSL"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Technische Universitaet Berlin License 1.0",
+    "licenseId": "TU-Berlin-1.0",
+    "urls": [
+      "https://spdx.org/licenses/TU-Berlin-1.0.json",
+      "https://github.com/swh/ladspa/blob/7bf6f3799fdba70fda297c2d8fd9f526803d9680/gsm/COPYRIGHT"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Technische Universitaet Berlin License 2.0",
+    "licenseId": "TU-Berlin-2.0",
+    "urls": [
+      "https://spdx.org/licenses/TU-Berlin-2.0.json",
+      "https://github.com/CorsixTH/deps/blob/fd339a9f526d1d9c9f01ccf39e438a015da50035/licences/libgsm.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Upstream Compatibility License v1.0",
+    "licenseId": "UCL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/UCL-1.0.json",
+      "https://opensource.org/licenses/UCL-1.0"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Unicode License Agreement - Data Files and Software (2015)",
+    "licenseId": "Unicode-DFS-2015",
+    "urls": [
+      "https://spdx.org/licenses/Unicode-DFS-2015.json",
+      "https://web.archive.org/web/20151224134844/http://unicode.org/copyright.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Unicode License Agreement - Data Files and Software (2016)",
+    "licenseId": "Unicode-DFS-2016",
+    "urls": [
+      "https://spdx.org/licenses/Unicode-DFS-2016.json",
+      "http://www.unicode.org/copyright.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Unicode Terms of Use",
+    "licenseId": "Unicode-TOU",
+    "urls": [
+      "https://spdx.org/licenses/Unicode-TOU.json",
+      "http://www.unicode.org/copyright.html"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "The Unlicense",
+    "licenseId": "Unlicense",
+    "urls": [
+      "https://spdx.org/licenses/Unlicense.json",
+      "https://unlicense.org/"
+    ],
+    "category": "Public Domain",
+    "tldrLegalId": "534ee3eb0810daac05000011"
+  },
+  {
+    "name": "Universal Permissive License v1.0",
+    "licenseId": "UPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/UPL-1.0.json",
+      "https://opensource.org/licenses/UPL"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "55f0908a00eb70762100072c"
+  },
+  {
+    "name": "Vim License",
+    "licenseId": "Vim",
+    "urls": [
+      "https://spdx.org/licenses/Vim.json",
+      "http://vimdoc.sourceforge.net/htmldoc/uganda.html"
+    ],
+    "category": "Strongly Protective"
+  },
+  {
+    "name": "VOSTROM Public License for Open Source",
+    "licenseId": "VOSTROM",
+    "urls": [
+      "https://spdx.org/licenses/VOSTROM.json",
+      "https://fedoraproject.org/wiki/Licensing/VOSTROM"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Vovida Software License v1.0",
+    "licenseId": "VSL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/VSL-1.0.json",
+      "https://opensource.org/licenses/VSL-1.0"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a23a28763c784c6000007d"
+  },
+  {
+    "name": "W3C Software Notice and License (2002-12-31)",
+    "licenseId": "W3C",
+    "urls": [
+      "https://spdx.org/licenses/W3C.json",
+      "http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231.html",
+      "https://opensource.org/licenses/W3C"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "W3C Software Notice and License (1998-07-20)",
+    "licenseId": "W3C-19980720",
+    "urls": [
+      "https://spdx.org/licenses/W3C-19980720.json",
+      "http://www.w3.org/Consortium/Legal/copyright-software-19980720.html"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "W3C Software Notice and Document License (2015-05-13)",
+    "licenseId": "W3C-20150513",
+    "urls": [
+      "https://spdx.org/licenses/W3C-20150513.json",
+      "https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Sybase Open Watcom Public License 1.0",
+    "licenseId": "Watcom-1.0",
+    "urls": [
+      "https://spdx.org/licenses/Watcom-1.0.json",
+      "https://opensource.org/licenses/Watcom-1.0"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a39889763c784c6000022f"
+  },
+  {
+    "name": "Wsuipa License",
+    "licenseId": "Wsuipa",
+    "urls": [
+      "https://spdx.org/licenses/Wsuipa.json",
+      "https://fedoraproject.org/wiki/Licensing/Wsuipa"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Do What The F*ck You Want To Public License",
+    "licenseId": "WTFPL",
+    "urls": [
+      "https://spdx.org/licenses/WTFPL.json",
+      "http://www.wtfpl.net/about/",
+      "http://sam.zoy.org/wtfpl/COPYING"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "53a08ed78634f2f942000082"
+  },
+  {
+    "name": "wxWindows Library License",
+    "licenseId": "wxWindows",
+    "urls": [
+      "https://spdx.org/licenses/wxWindows.json",
+      "https://opensource.org/licenses/WXwindows"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a23ca8763c784c60000096"
+  },
+  {
+    "name": "X11 License",
+    "licenseId": "X11",
+    "urls": [
+      "https://spdx.org/licenses/X11.json",
+      "http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "531cfd419388f5c02700000b"
+  },
+  {
+    "name": "X11 License Distribution Modification Variant",
+    "licenseId": "X11-distribute-modifications-variant",
+    "urls": [
+      "https://spdx.org/licenses/X11-distribute-modifications-variant.json",
+      "https://github.com/mirror/ncurses/blob/master/COPYING"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Xerox License",
+    "licenseId": "Xerox",
+    "urls": [
+      "https://spdx.org/licenses/Xerox.json",
+      "https://fedoraproject.org/wiki/Licensing/Xerox"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "559fd92947cdaa075e0002fc"
+  },
+  {
+    "name": "XFree86 License 1.1",
+    "licenseId": "XFree86-1.1",
+    "urls": [
+      "https://spdx.org/licenses/XFree86-1.1.json",
+      "http://www.xfree86.org/current/LICENSE4.html"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "53a23fa4763c784c600000b1"
+  },
+  {
+    "name": "xinetd License",
+    "licenseId": "xinetd",
+    "urls": [
+      "https://spdx.org/licenses/xinetd.json",
+      "https://fedoraproject.org/wiki/Licensing/Xinetd_License"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "X.Net License",
+    "licenseId": "Xnet",
+    "urls": [
+      "https://spdx.org/licenses/Xnet.json",
+      "https://opensource.org/licenses/Xnet"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "53a23e9f763c784c600000a4"
+  },
+  {
+    "name": "XPP License",
+    "licenseId": "xpp",
+    "urls": [
+      "https://spdx.org/licenses/xpp.json",
+      "https://fedoraproject.org/wiki/Licensing/xpp"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "XSkat License",
+    "licenseId": "XSkat",
+    "urls": [
+      "https://spdx.org/licenses/XSkat.json",
+      "https://fedoraproject.org/wiki/Licensing/XSkat_License"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "5773df9c6cca83a54c002ac0"
+  },
+  {
+    "name": "Yahoo! Public License v1.0",
+    "licenseId": "YPL-1.0",
+    "urls": [
+      "https://spdx.org/licenses/YPL-1.0.json",
+      "http://www.zimbra.com/license/yahoo_public_license_1.0.html"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "Yahoo! Public License v1.1",
+    "licenseId": "YPL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/YPL-1.1.json",
+      "http://www.zimbra.com/license/yahoo_public_license_1.1.html"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a240a5763c784c600000bf"
+  },
+  {
+    "name": "Zed License",
+    "licenseId": "Zed",
+    "urls": [
+      "https://spdx.org/licenses/Zed.json",
+      "https://fedoraproject.org/wiki/Licensing/Zed"
+    ],
+    "category": "Uncategorized",
+    "tldrLegalId": "5773e9556cca83a54c002ad7"
+  },
+  {
+    "name": "Zend License v2.0",
+    "licenseId": "Zend-2.0",
+    "urls": [
+      "https://spdx.org/licenses/Zend-2.0.json",
+      "https://web.archive.org/web/20130517195954/http://www.zend.com/license/2_00.txt"
+    ],
+    "category": "Uncategorized"
+  },
+  {
+    "name": "Zimbra Public License v1.3",
+    "licenseId": "Zimbra-1.3",
+    "urls": [
+      "https://spdx.org/licenses/Zimbra-1.3.json",
+      "http://web.archive.org/web/20100302225219/http://www.zimbra.com/license/zimbra-public-license-1-3.html"
+    ],
+    "category": "Weakly Protective",
+    "tldrLegalId": "53a244ef763c784c600000cd"
+  },
+  {
+    "name": "Zimbra Public License v1.4",
+    "licenseId": "Zimbra-1.4",
+    "urls": [
+      "https://spdx.org/licenses/Zimbra-1.4.json",
+      "http://www.zimbra.com/legal/zimbra-public-license-1-4"
+    ],
+    "category": "Weakly Protective"
+  },
+  {
+    "name": "zlib License",
+    "licenseId": "Zlib",
+    "urls": [
+      "https://spdx.org/licenses/Zlib.json",
+      "http://www.zlib.net/zlib_license.html",
+      "https://opensource.org/licenses/Zlib"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "zlib/libpng License with Acknowledgement",
+    "licenseId": "zlib-acknowledgement",
+    "urls": [
+      "https://spdx.org/licenses/zlib-acknowledgement.json",
+      "https://fedoraproject.org/wiki/Licensing/ZlibWithAcknowledgement"
+    ],
+    "category": "Permissive"
+  },
+  {
+    "name": "Zope Public License 1.1",
+    "licenseId": "ZPL-1.1",
+    "urls": [
+      "https://spdx.org/licenses/ZPL-1.1.json",
+      "http://old.zope.org/Resources/License/ZPL-1.1"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "559fdf1c47cdaa075e00030d"
+  },
+  {
+    "name": "Zope Public License 2.0",
+    "licenseId": "ZPL-2.0",
+    "urls": [
+      "https://spdx.org/licenses/ZPL-2.0.json",
+      "http://old.zope.org/Resources/License/ZPL-2.0",
+      "https://opensource.org/licenses/ZPL-2.0"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "559fe38247cdaa075e00031c"
+  },
+  {
+    "name": "Zope Public License 2.1",
+    "licenseId": "ZPL-2.1",
+    "urls": [
+      "https://spdx.org/licenses/ZPL-2.1.json",
+      "http://old.zope.org/Resources/ZPL/"
+    ],
+    "category": "Permissive",
+    "tldrLegalId": "53a24690763c784c600000df"
+  }
+]
