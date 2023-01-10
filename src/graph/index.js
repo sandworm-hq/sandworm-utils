@@ -23,7 +23,7 @@ const generateGraphPromise = async (appPath) => {
     });
   } else if (lockfile.manager === 'pnpm') {
     graph = await generatePnpmGraph({
-      data: lockfile.data.packages,
+      data: lockfile.data?.packages || {},
       manifest,
     });
   }
