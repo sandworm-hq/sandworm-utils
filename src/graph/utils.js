@@ -129,7 +129,7 @@ const postProcessGraph = ({
   });
 
   if (depth === 0) {
-    Object.values(root.dependencies).forEach((dep) => {
+    Object.values(root.dependencies || {}).forEach((dep) => {
       // eslint-disable-next-line no-param-reassign
       dep.flags.prod = true;
     });
