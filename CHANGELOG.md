@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.4](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.10.3...sandworm-utils-v1.10.4) (2023-01-10)
+
+
+### Bug Fixes
+
+* crash when post-processing empty graphs ([94d35dd](https://github.com/sandworm-hq/sandworm-utils/commit/94d35ddc254878c9512df7aac63a8e2ed83969e4))
+
 ## [1.10.3](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.10.2...sandworm-utils-v1.10.3) (2023-01-10)
 
 
