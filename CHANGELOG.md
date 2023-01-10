@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.3](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.10.2...sandworm-utils-v1.10.3) (2023-01-10)
+
+
+### Bug Fixes
+
+* crash when using pnpm with no dependencies ([b9f64f8](https://github.com/sandworm-hq/sandworm-utils/commit/b9f64f8e1eb83aaba533902df3ffef1a25ff99b5))
+
 ## [1.10.2](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.10.1...sandworm-utils-v1.10.2) (2022-12-05)
 
 
