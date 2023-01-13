@@ -108,7 +108,6 @@ const postProcessGraph = ({
   processedNodes = [],
   flags = {},
   depth = 0,
-  installedPackages = [],
 }) => {
   if (!root) {
     return root;
@@ -139,49 +138,6 @@ const postProcessGraph = ({
     // eslint-disable-next-line no-param-reassign
     processedNodes.push(root);
 
-    const installedPackage = installedPackages.find(
-      ({name, version}) => root.name === name && root.version === version,
-    );
-
-    if (installedPackage) {
-      let license;
-
-      if (typeof installedPackage.license === 'string') {
-        // Standard SPDX field
-        license = installedPackage.license;
-      } else if (Array.isArray(installedPackage.licenses)) {
-        // Some older packages use an array
-        //  {
-        //   "licenses" : [
-        //     {"type": "MIT", "url": "..."},
-        //     {"type": "Apache-2.0", "url": "..."}
-        //   ]
-        // }
-        if (installedPackage.licenses.length === 1) {
-          license = installedPackage.licenses[0].type;
-        } else {
-          license = `(${installedPackage.licenses.map(({type}) => type).join(' OR ')})`;
-        }
-      } else if (typeof installedPackage.license === 'object') {
-        // Some older packages use an object
-        // {
-        //   "license" : {
-        //     "type" : "ISC",
-        //     "url" : "..."
-        //   }
-        // }
-        license = installedPackage.license.type;
-      }
-
-      Object.assign(root, {
-        relativePath: installedPackage.relativePath,
-        ...(installedPackage.engines && {engines: installedPackage.engines}),
-        ...(license && {license}),
-      });
-    } else {
-      console.warn(`Could not find installed: ${root.name}@${root.version}`);
-    }
-
     [
       ...Object.values(root.dependencies || {}).map((dep) => ['prod', dep]),
       ...Object.values(root.devDependencies || {}).map((dep) => ['dev', dep]),
@@ -200,7 +156,79 @@ const postProcessGraph = ({
           ...((flags.bundled || rel === 'bundled') && {bundled: true}),
         },
         depth: depth + 1,
-        installedPackages,
+      }),
+    );
+  }
+
+  return root;
+};
+
+const addDependencyGraphData = ({
+  root,
+  processedNodes = [],
+  packageData = [],
+}) => {
+  if (!root) {
+    return root;
+  }
+
+  if (!processedNodes.includes(root)) {
+    // eslint-disable-next-line no-param-reassign
+    processedNodes.push(root);
+
+    const currentPackageData = packageData.find(
+      ({name, version}) => root.name === name && root.version === version,
+    );
+
+    if (currentPackageData) {
+      let license;
+
+      if (typeof currentPackageData.license === 'string') {
+        // Standard SPDX field
+        license = currentPackageData.license;
+      } else if (Array.isArray(currentPackageData.licenses)) {
+        // Some older packages use an array
+        //  {
+        //   "licenses" : [
+        //     {"type": "MIT", "url": "..."},
+        //     {"type": "Apache-2.0", "url": "..."}
+        //   ]
+        // }
+        if (currentPackageData.licenses.length === 1) {
+          license = currentPackageData.licenses[0].type;
+        } else {
+          license = `(${currentPackageData.licenses.map(({type}) => type).join(' OR ')})`;
+        }
+      } else if (typeof currentPackageData.license === 'object') {
+        // Some older packages use an object
+        // {
+        //   "license" : {
+        //     "type" : "ISC",
+        //     "url" : "..."
+        //   }
+        // }
+        license = currentPackageData.license.type;
+      }
+
+      Object.assign(root, {
+        ...(currentPackageData.relativePath && {relativePath: currentPackageData.relativePath}),
+        ...(currentPackageData.engines && {engines: currentPackageData.engines}),
+        ...(currentPackageData.size && {size: currentPackageData.size}),
+        ...(license && {license}),
+      });
+    }
+
+    [
+      ...Object.values(root.dependencies || {}),
+      ...Object.values(root.devDependencies || {}),
+      ...Object.values(root.optionalDependencies || {}),
+      ...Object.values(root.peerDependencies || {}),
+      ...Object.values(root.bundledDependencies || {}),
+    ].forEach((dep) =>
+      addDependencyGraphData({
+        root: dep,
+        processedNodes,
+        packageData,
       }),
     );
   }
@@ -214,4 +242,5 @@ module.exports = {
   processDependenciesForPackage,
   processPlaceholders,
   postProcessGraph,
+  addDependencyGraphData,
 };

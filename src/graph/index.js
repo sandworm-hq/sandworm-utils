@@ -2,9 +2,12 @@ const {loadLockfile, loadManifest, loadInstalledPackages} = require('../files');
 const generateNpmGraph = require('./generateNpmGraph');
 const generatePnpmGraph = require('./generatePnpmGraph');
 const generateYarnGraph = require('./generateYarnGraph');
-const {postProcessGraph} = require('./utils');
+const {postProcessGraph, addDependencyGraphData} = require('./utils');
 
-const generateGraphPromise = async (appPath) => {
+const generateGraphPromise = async (
+  appPath,
+  {packageData, loadDataFromDisk = false} = {},
+) => {
   const lockfile = await loadLockfile(appPath);
   const manifest = loadManifest(appPath);
   let graph;
@@ -28,10 +31,18 @@ const generateGraphPromise = async (appPath) => {
     });
   }
 
-  const installedPackages = await loadInstalledPackages(appPath);
-
   const {root, allPackages} = graph;
-  const processedRoot = postProcessGraph({root, installedPackages});
+  const processedRoot = postProcessGraph({root});
+
+  let additionalPackageData = packageData;
+
+  if (!packageData && loadDataFromDisk) {
+    additionalPackageData = await loadInstalledPackages(appPath);
+  }
+
+  if (additionalPackageData) {
+    addDependencyGraphData({root, packageData: additionalPackageData});
+  }
 
   return {
     root: {
@@ -44,19 +55,19 @@ const generateGraphPromise = async (appPath) => {
   };
 };
 
-const generateGraphAsync = (appPath, done = () => {}) => {
+const generateGraphAsync = (appPath, options, done = () => {}) => {
   (async () => {
-    const graph = await generateGraphPromise(appPath);
+    const graph = await generateGraphPromise(appPath, options);
     done(graph);
   })();
-}
+};
 
-const generateGraph = (appPath, done) => {
+const generateGraph = (appPath, {packageData, loadDataFromDisk = false} = {}, done = undefined) => {
   if (typeof done === 'function') {
-    return generateGraphAsync(appPath, done);
+    return generateGraphAsync(appPath, {packageData, loadDataFromDisk}, done);
   }
 
-  return generateGraphPromise(appPath);
+  return generateGraphPromise(appPath, {packageData, loadDataFromDisk});
 };
 
 module.exports = generateGraph;

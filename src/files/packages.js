@@ -1,5 +1,31 @@
+const {exec} = require('child_process');
 const fs = require('fs');
 const path = require('path');
+
+const packageSizeCache = {};
+
+const getFolderSize = (folderPath) =>
+  new Promise((resolve, reject) => {
+    const cachedSize = packageSizeCache[folderPath];
+    if (cachedSize) {
+      resolve(cachedSize);
+    } else {
+      exec(
+        process.platform === 'darwin' ? 'du -sk .' : 'du -sb .',
+        {cwd: folderPath},
+        (err, stdout) => {
+          if (err) {
+            reject(err);
+          } else {
+            const match = /^(\d+)/.exec(stdout);
+            const size = Number(match[1]) * (process.platform === 'darwin' ? 1024 : 1);
+            packageSizeCache[folderPath] = size;
+            resolve(size);
+          }
+        },
+      );
+    }
+  });
 
 const loadInstalledPackages = async (rootPath, subPath = '') => {
   let packageAtRootData;
@@ -12,6 +38,13 @@ const loadInstalledPackages = async (rootPath, subPath = '') => {
     packageAtRootData.relativePath = subPath;
   // eslint-disable-next-line no-empty
   } catch (error) {}
+
+  if (packageAtRootData) {
+    try {
+      packageAtRootData.size = await getFolderSize(currentPath);
+    // eslint-disable-next-line no-empty
+    } catch (error) {}
+  }
 
   const subdirectories = (await fs.promises.readdir(currentPath, {withFileTypes: true}))
     .filter((dirent) => dirent.isDirectory())

@@ -3,7 +3,8 @@ const logger = require('./logger');
 const permissions = require('./permissions');
 const recorder = require('./recorder');
 const sandworm = require('./sandworm');
-const graph = require('./graph');
+const getDependencyGraph = require('./graph');
+const {addDependencyGraphData} = require('./graph/utils');
 
 module.exports = {
   files,
@@ -11,5 +12,6 @@ module.exports = {
   permissions,
   recorder,
   sandworm,
-  graph,
+  getDependencyGraph,
+  addDependencyGraphData,
 };
