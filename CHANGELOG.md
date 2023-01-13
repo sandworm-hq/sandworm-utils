@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.10.4...sandworm-utils-v1.11.0) (2023-01-13)
+
+
+### Features
+
+* get local package sizes ([7acd48c](https://github.com/sandworm-hq/sandworm-utils/commit/7acd48cf5ee607d3fa39a11b761a642674080fd3))
+
 ## [1.10.4](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.10.3...sandworm-utils-v1.10.4) (2023-01-10)
 
 
