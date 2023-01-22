@@ -41,7 +41,12 @@ const loadInstalledPackages = async (rootPath, subPath = '') => {
 
   if (packageAtRootData) {
     try {
-      packageAtRootData.size = await getFolderSize(currentPath);
+      let totalSize = await getFolderSize(currentPath);
+      const modulesPath = path.join(currentPath, 'node_modules');
+      if (fs.existsSync(modulesPath)) {
+        totalSize -= await getFolderSize(modulesPath);
+      }
+      packageAtRootData.size = totalSize;
     // eslint-disable-next-line no-empty
     } catch (error) {}
   }
