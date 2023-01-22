@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.1](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.11.0...sandworm-utils-v1.11.1) (2023-01-22)
+
+
+### Bug Fixes
+
+* package size no longer includes node modules ([3f4e463](https://github.com/sandworm-hq/sandworm-utils/commit/3f4e463561b53edb232e2f0a88b8f1bba3c11726))
+
 ## [1.11.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.10.4...sandworm-utils-v1.11.0) (2023-01-13)
 
 
