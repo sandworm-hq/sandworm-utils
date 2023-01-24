@@ -4,10 +4,7 @@ const generatePnpmGraph = require('./generatePnpmGraph');
 const generateYarnGraph = require('./generateYarnGraph');
 const {postProcessGraph, addDependencyGraphData} = require('./utils');
 
-const generateGraphPromise = async (
-  appPath,
-  {packageData, loadDataFromDisk = false} = {},
-) => {
+const generateGraphPromise = async (appPath, {packageData, loadDataFromDisk = false} = {}) => {
   const lockfile = await loadLockfile(appPath);
   const manifest = loadManifest(appPath);
   let graph;
@@ -33,6 +30,11 @@ const generateGraphPromise = async (
 
   const {root, allPackages} = graph;
   const processedRoot = postProcessGraph({root});
+  const allConnectedPackages = allPackages.filter(
+    ({name, version, parents}) =>
+      (name === manifest.name && version === manifest.version) ||
+      Object.values(parents).reduce((agg, deps) => agg + Object.keys(deps).length, 0),
+  );
 
   let additionalPackageData = packageData;
 
@@ -49,9 +51,9 @@ const generateGraphPromise = async (
       ...(processedRoot || {}),
       meta: {lockfileVersion: lockfile.lockfileVersion, packageManager: lockfile.manager},
     },
-    all: allPackages,
-    devDependencies: allPackages.filter(({flags}) => flags.dev),
-    prodDependencies: allPackages.filter(({flags}) => flags.prod),
+    all: allConnectedPackages,
+    devDependencies: allConnectedPackages.filter(({flags}) => flags.dev),
+    prodDependencies: allConnectedPackages.filter(({flags}) => flags.prod),
   };
 };
 
