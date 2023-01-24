@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.2](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.11.1...sandworm-utils-v1.11.2) (2023-01-24)
+
+
+### Bug Fixes
+
+* remove disconnected nodes from all packages ([192315e](https://github.com/sandworm-hq/sandworm-utils/commit/192315e86e8eb584e2452fa33982c4fdc56b95b6))
+
 ## [1.11.1](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.11.0...sandworm-utils-v1.11.1) (2023-01-22)
 
 
