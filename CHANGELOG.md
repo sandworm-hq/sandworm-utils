@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.11.2...sandworm-utils-v1.12.0) (2023-01-27)
+
+
+### Features
+
+* support stringified license data ([e1b8838](https://github.com/sandworm-hq/sandworm-utils/commit/e1b8838b2f70a7458edb868edb8620a1eb04e929))
+
 ## [1.11.2](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.11.1...sandworm-utils-v1.11.2) (2023-01-24)
 
 
