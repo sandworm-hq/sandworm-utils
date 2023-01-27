@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.1](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.12.0...sandworm-utils-v1.12.1) (2023-01-27)
+
+
+### Bug Fixes
+
+* json license data parsing ([9a9779e](https://github.com/sandworm-hq/sandworm-utils/commit/9a9779e7326a757df6d996bfd9fb94d5005dc069))
+
 ## [1.12.0](https://github.com/sandworm-hq/sandworm-utils/compare/sandworm-utils-v1.11.2...sandworm-utils-v1.12.0) (2023-01-27)
 
 
