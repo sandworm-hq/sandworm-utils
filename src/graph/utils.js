@@ -182,11 +182,17 @@ const addDependencyGraphData = ({
 
     if (currentPackageData) {
       let license;
+      let licenseData = currentPackageData.license;
 
-      if (typeof currentPackageData.license === 'string') {
+      try {
+        licenseData = JSON.parse(license);
+      // eslint-disable-next-line no-empty
+      } catch (error) {}
+
+      if (typeof licenseData === 'string') {
         // Standard SPDX field
-        license = currentPackageData.license;
-      } else if (Array.isArray(currentPackageData.licenses)) {
+        license = licenseData;
+      } else if (Array.isArray(licenseData)) {
         // Some older packages use an array
         //  {
         //   "licenses" : [
@@ -194,12 +200,12 @@ const addDependencyGraphData = ({
         //     {"type": "Apache-2.0", "url": "..."}
         //   ]
         // }
-        if (currentPackageData.licenses.length === 1) {
-          license = currentPackageData.licenses[0].type;
+        if (licenseData.length === 1) {
+          license = licenseData[0].type;
         } else {
-          license = `(${currentPackageData.licenses.map(({type}) => type).join(' OR ')})`;
+          license = `(${licenseData.map(({type}) => type).join(' OR ')})`;
         }
-      } else if (typeof currentPackageData.license === 'object') {
+      } else if (typeof licenseData === 'object') {
         // Some older packages use an object
         // {
         //   "license" : {
@@ -207,7 +213,7 @@ const addDependencyGraphData = ({
         //     "url" : "..."
         //   }
         // }
-        license = currentPackageData.license.type;
+        license = licenseData.type;
       }
 
       Object.assign(root, {
