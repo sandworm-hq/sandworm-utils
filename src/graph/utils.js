@@ -185,7 +185,7 @@ const addDependencyGraphData = ({
       let licenseData = currentPackageData.license;
 
       try {
-        licenseData = JSON.parse(license);
+        licenseData = JSON.parse(licenseData);
       // eslint-disable-next-line no-empty
       } catch (error) {}
 
