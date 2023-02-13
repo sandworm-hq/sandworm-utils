@@ -1,8 +1,4 @@
-const {
-  processDependenciesForPackage,
-  processPlaceholders,
-  makeNode,
-} = require('./utils');
+const {processDependenciesForPackage, processPlaceholders, makeNode} = require('./utils');
 
 const parsePath = (path) => {
   const parts = path.slice(1).split('/');

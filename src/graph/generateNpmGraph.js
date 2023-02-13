@@ -1,8 +1,4 @@
-const {
-  processDependenciesForPackage,
-  processPlaceholders,
-  makeNode,
-} = require('./utils');
+const {processDependenciesForPackage, processPlaceholders, makeNode} = require('./utils');
 
 const packageNameFromPath = (path) => {
   // TODO: For locally linked packages this might not include a `node_modules` string
@@ -16,12 +12,7 @@ const generateNpmGraph = ({packages}) => {
   let root = null;
 
   Object.entries(packages).forEach(([packageLocation, packageData]) => {
-    const {
-      name: originalName,
-      version,
-      resolved,
-      integrity,
-    } = packageData;
+    const {name: originalName, version, resolved, integrity} = packageData;
     const name = originalName || packageNameFromPath(packageLocation);
 
     const newPackage = makeNode({

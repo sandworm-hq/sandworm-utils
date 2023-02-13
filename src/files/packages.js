@@ -36,7 +36,7 @@ const loadInstalledPackages = async (rootPath, subPath = '') => {
     });
     packageAtRootData = JSON.parse(manifestContent);
     packageAtRootData.relativePath = subPath;
-  // eslint-disable-next-line no-empty
+    // eslint-disable-next-line no-empty
   } catch (error) {}
 
   if (packageAtRootData) {
@@ -47,7 +47,7 @@ const loadInstalledPackages = async (rootPath, subPath = '') => {
         totalSize -= await getFolderSize(modulesPath);
       }
       packageAtRootData.size = totalSize;
-    // eslint-disable-next-line no-empty
+      // eslint-disable-next-line no-empty
     } catch (error) {}
   }
 
