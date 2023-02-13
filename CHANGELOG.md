@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.0](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.13.2...utils-v1.14.0) (2023-02-13)
+
+
+### Features
+
+* expose more graph package metadata ([9aa1c80](https://github.com/sandworm-hq/sandworm-utils/commit/9aa1c807bf15f6bb69c1a1e5cfaad3030bd51c70))
+
 ## [1.13.2](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.13.1...utils-v1.13.2) (2023-02-13)
 
 
