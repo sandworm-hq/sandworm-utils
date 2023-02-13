@@ -90,7 +90,7 @@ workflows:
             branches:
               ignore: /.*/
             tags:
-              only: /^sandworm-utils-v.*/
+              only: /^utils-v.*/
       - publish-npm:
           requires:
             - setup
@@ -98,4 +98,4 @@ workflows:
             branches:
               ignore: /.*/
             tags:
-              only: /^sandworm-utils-v.*/
+              only: /^utils-v.*/
