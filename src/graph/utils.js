@@ -174,7 +174,7 @@ const addDependencyGraphData = ({root, processedNodes = [], packageData = []}) =
 
     if (currentPackageData) {
       let license;
-      let licenseData = currentPackageData.license;
+      let licenseData = currentPackageData.license || currentPackageData.licenses;
 
       try {
         licenseData = JSON.parse(licenseData);
@@ -212,6 +212,21 @@ const addDependencyGraphData = ({root, processedNodes = [], packageData = []}) =
         ...(currentPackageData.relativePath && {relativePath: currentPackageData.relativePath}),
         ...(currentPackageData.engines && {engines: currentPackageData.engines}),
         ...(currentPackageData.size && {size: currentPackageData.size}),
+        ...(currentPackageData.deprecated && {deprecated: currentPackageData.deprecated}),
+        ...(currentPackageData.repository && {repository: currentPackageData.repository}),
+        ...(currentPackageData.bugs && {bugs: currentPackageData.bugs}),
+        ...(currentPackageData.scripts && {scripts: currentPackageData.scripts}),
+        ...(currentPackageData.readme && {hasReadme: true}),
+        ...(currentPackageData.published && {published: currentPackageData.published}),
+        ...(currentPackageData.dependencies && {
+          originalDependencies: currentPackageData.dependencies,
+        }),
+        ...(currentPackageData.author && {author: currentPackageData.author}),
+        ...(currentPackageData.maintainers && {
+          maintainers: currentPackageData.maintainers,
+        }),
+        // eslint-disable-next-line no-underscore-dangle
+        ...(currentPackageData._npmUser && {publisher: currentPackageData._npmUser}),
         ...(license && {license}),
       });
     }
