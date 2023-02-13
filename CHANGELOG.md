@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.2](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.13.1...utils-v1.13.2) (2023-02-13)
+
+
+### Bug Fixes
+
+* ci pipeline package visibility ([8fb9ca0](https://github.com/sandworm-hq/sandworm-utils/commit/8fb9ca00ed11e7464b819dcfb7f4a5a4330b4760))
+
 ## [1.13.1](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.13.0...utils-v1.13.1) (2023-02-13)
 
 
