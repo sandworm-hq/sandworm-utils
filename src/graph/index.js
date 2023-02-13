@@ -2,12 +2,13 @@ const {loadLockfile, loadManifest, loadInstalledPackages} = require('../files');
 const generateNpmGraph = require('./generateNpmGraph');
 const generatePnpmGraph = require('./generatePnpmGraph');
 const generateYarnGraph = require('./generateYarnGraph');
-const {postProcessGraph, addDependencyGraphData} = require('./utils');
+const {postProcessGraph, addDependencyGraphData, getRegistryDataMultiple} = require('./utils');
 
-const generateGraphPromise = async (appPath, {packageData, loadDataFromDisk = false} = {}) => {
+const generateGraphPromise = async (appPath, {packageData, loadDataFrom = false} = {}) => {
   const lockfile = await loadLockfile(appPath);
   const manifest = loadManifest(appPath);
   let graph;
+  let errors = [];
 
   if (lockfile.manager === 'npm') {
     graph = await generateNpmGraph(lockfile.data);
@@ -35,11 +36,19 @@ const generateGraphPromise = async (appPath, {packageData, loadDataFromDisk = fa
       (name === manifest.name && version === manifest.version) ||
       Object.values(parents).reduce((agg, deps) => agg + Object.keys(deps).length, 0),
   );
+  const devDependencies = allConnectedPackages.filter(({flags}) => flags.dev);
+  const prodDependencies = allConnectedPackages.filter(({flags}) => flags.prod);
 
   let additionalPackageData = packageData;
 
-  if (!packageData && loadDataFromDisk) {
-    additionalPackageData = await loadInstalledPackages(appPath);
+  if (!packageData && loadDataFrom) {
+    if (loadDataFrom === 'disk') {
+      additionalPackageData = await loadInstalledPackages(appPath);
+    } else if (loadDataFrom === 'registry') {
+      const {data, errors: registryErrors} = await getRegistryDataMultiple(prodDependencies);
+      additionalPackageData = data;
+      errors = [...errors, ...registryErrors];
+    }
   }
 
   if (additionalPackageData) {
@@ -52,8 +61,9 @@ const generateGraphPromise = async (appPath, {packageData, loadDataFromDisk = fa
       meta: {lockfileVersion: lockfile.lockfileVersion, packageManager: lockfile.manager},
     },
     all: allConnectedPackages,
-    devDependencies: allConnectedPackages.filter(({flags}) => flags.dev),
-    prodDependencies: allConnectedPackages.filter(({flags}) => flags.prod),
+    devDependencies,
+    prodDependencies,
+    errors,
   };
 };
 
@@ -64,12 +74,12 @@ const generateGraphAsync = (appPath, options, done = () => {}) => {
   })();
 };
 
-const generateGraph = (appPath, {packageData, loadDataFromDisk = false} = {}, done = undefined) => {
+const generateGraph = (appPath, {packageData, loadDataFrom = false} = {}, done = undefined) => {
   if (typeof done === 'function') {
-    return generateGraphAsync(appPath, {packageData, loadDataFromDisk}, done);
+    return generateGraphAsync(appPath, {packageData, loadDataFrom}, done);
   }
 
-  return generateGraphPromise(appPath, {packageData, loadDataFromDisk});
+  return generateGraphPromise(appPath, {packageData, loadDataFrom});
 };
 
 module.exports = generateGraph;

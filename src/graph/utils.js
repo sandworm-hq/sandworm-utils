@@ -1,3 +1,4 @@
+const https = require('https');
 const semverLib = require('semver');
 
 const parseDependencyString = (depstring) => {
@@ -103,12 +104,7 @@ const processPlaceholders = ({newPackage, placeholders}) => {
     });
 };
 
-const postProcessGraph = ({
-  root,
-  processedNodes = [],
-  flags = {},
-  depth = 0,
-}) => {
+const postProcessGraph = ({root, processedNodes = [], flags = {}, depth = 0}) => {
   if (!root) {
     return root;
   }
@@ -163,11 +159,7 @@ const postProcessGraph = ({
   return root;
 };
 
-const addDependencyGraphData = ({
-  root,
-  processedNodes = [],
-  packageData = [],
-}) => {
+const addDependencyGraphData = ({root, processedNodes = [], packageData = []}) => {
   if (!root) {
     return root;
   }
@@ -186,7 +178,7 @@ const addDependencyGraphData = ({
 
       try {
         licenseData = JSON.parse(licenseData);
-      // eslint-disable-next-line no-empty
+        // eslint-disable-next-line no-empty
       } catch (error) {}
 
       if (typeof licenseData === 'string') {
@@ -242,6 +234,76 @@ const addDependencyGraphData = ({
   return root;
 };
 
+const getRegistryData = (packageName, packageVersion) =>
+  new Promise((resolve, reject) => {
+    const req = https.request(
+      {
+        hostname: 'registry.npmjs.org',
+        port: 443,
+        path: `/${packageName}`,
+        method: 'GET',
+      },
+      (res) => {
+        const data = [];
+
+        res.on('data', (chunk) => {
+          data.push(chunk);
+        });
+        res.on('end', () => {
+          try {
+            const response = JSON.parse(Buffer.concat(data).toString());
+
+            resolve({
+              ...response,
+              ...(response.versions?.[packageVersion] || {}),
+              published: response.time?.[packageVersion],
+              size: response.versions?.[packageVersion]?.dist?.unpackedSize,
+              versions: undefined,
+              time: undefined,
+            });
+          } catch (error) {
+            reject(error);
+          }
+        });
+      },
+    );
+    req.on('error', (err) => {
+      reject(err);
+    });
+    req.end();
+  });
+
+const getRegistryDataMultiple = async (packages) => {
+  const errors = [];
+  const threadCount = 10;
+  const jobCount = Math.ceil(packages.length / threadCount);
+  const batchedData = await Promise.all(
+    [...Array(threadCount).keys()].map(async (threadIndex) =>
+      [...Array(jobCount).keys()].reduce(async (agg, jobIndex) => {
+        const prevData = await agg;
+        const globalJobIndex = threadIndex * jobCount + jobIndex;
+
+        if (globalJobIndex <= packages.length) {
+          try {
+            const {name, version} = packages[globalJobIndex];
+            const packageData = await getRegistryData(name, version);
+            return [...prevData, packageData];
+          } catch (error) {
+            errors.push(error.message);
+            return prevData;
+          }
+        }
+
+        return prevData;
+      }, Promise.resolve([])),
+    ),
+  );
+  return {
+    data: batchedData.reduce((agg, batch) => [...agg, ...batch], []),
+    errors,
+  };
+};
+
 module.exports = {
   makeNode,
   parseDependencyString,
@@ -249,4 +311,6 @@ module.exports = {
   processPlaceholders,
   postProcessGraph,
   addDependencyGraphData,
+  getRegistryData,
+  getRegistryDataMultiple,
 };
