@@ -1,7 +1,7 @@
 {
-  "name": "sandworm-utils",
+  "name": "@sandworm/utils",
   "version": "1.12.1",
-  "description": "Various utilities for Sandworm modules 🪱",
+  "description": "Utilities for working with npm packages 🪱",
   "main": "src/index.js",
   "scripts": {
     "lint": "yarn eslint ./src/",
