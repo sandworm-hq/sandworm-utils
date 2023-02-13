@@ -304,7 +304,7 @@ const getRegistryDataMultiple = async (packages) => {
             const packageData = await getRegistryData(name, version);
             return [...prevData, packageData];
           } catch (error) {
-            errors.push(error.message);
+            errors.push(error);
             return prevData;
           }
         }
