@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.1](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.13.0...utils-v1.13.1) (2023-02-13)
+
+
+### Bug Fixes
+
+* code style issues ([d3665ef](https://github.com/sandworm-hq/sandworm-utils/commit/d3665ef0c4156cebb099f95e78af21119a6b7769))
+
 ## [1.13.0](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.12.1...utils-v1.13.0) (2023-02-13)
 
 
