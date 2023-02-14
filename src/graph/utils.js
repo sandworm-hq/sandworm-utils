@@ -216,7 +216,6 @@ const addDependencyGraphData = ({root, processedNodes = [], packageData = []}) =
         ...(currentPackageData.repository && {repository: currentPackageData.repository}),
         ...(currentPackageData.bugs && {bugs: currentPackageData.bugs}),
         ...(currentPackageData.scripts && {scripts: currentPackageData.scripts}),
-        ...(currentPackageData.readme && {hasReadme: true}),
         ...(currentPackageData.published && {published: currentPackageData.published}),
         ...(currentPackageData.dependencies && {
           originalDependencies: currentPackageData.dependencies,
