@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.15.0](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.14.0...utils-v1.15.0) (2023-02-14)
+
+
+### Features
+
+* return full errors when generating graphs ([430fdc2](https://github.com/sandworm-hq/sandworm-utils/commit/430fdc2138e948ea4a0093f186fceeb066a5ae62))
+
+
+### Bug Fixes
+
+* remove unreliable readme info from npm api ([69143fc](https://github.com/sandworm-hq/sandworm-utils/commit/69143fc4034a697135ea9e0b85a60d649cf45848))
+
 ## [1.14.0](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.13.2...utils-v1.14.0) (2023-02-13)
 
 
