@@ -111,49 +111,53 @@ const postProcessGraph = ({root, processedNodes = [], flags = {}, depth = 0}) =>
 
   Object.assign(root.flags, flags);
 
-  Object.keys(root).forEach((key) => {
-    const value = root[key];
-    if (
-      key !== 'flags' &&
-      (value === undefined ||
-        (Object.getPrototypeOf(value) === Object.prototype && Object.keys(value).length === 0))
-    ) {
-      // eslint-disable-next-line no-param-reassign
-      delete root[key];
-    }
-  });
-
-  if (depth === 0) {
-    Object.values(root.dependencies || {}).forEach((dep) => {
-      // eslint-disable-next-line no-param-reassign
-      dep.flags.prod = true;
-    });
-  }
-
   if (!processedNodes.includes(root)) {
     // eslint-disable-next-line no-param-reassign
     processedNodes.push(root);
 
+    Object.keys(root).forEach((key) => {
+      const value = root[key];
+      if (
+        key !== 'flags' &&
+        (value === undefined ||
+          (Object.getPrototypeOf(value) === Object.prototype && Object.keys(value).length === 0))
+      ) {
+        // eslint-disable-next-line no-param-reassign
+        delete root[key];
+      }
+    });
+
+    if (depth === 0) {
+      Object.values(root.dependencies || {}).forEach((dep) => {
+        // eslint-disable-next-line no-param-reassign
+        dep.flags.prod = true;
+      });
+    }
+
+    // Flags may mutate during the recursive processing
+    // Make a copy of the flags before we start
+    const rootFlags = {...root.flags};
     [
       ...Object.values(root.dependencies || {}).map((dep) => ['prod', dep]),
       ...Object.values(root.devDependencies || {}).map((dep) => ['dev', dep]),
       ...Object.values(root.optionalDependencies || {}).map((dep) => ['optional', dep]),
       ...Object.values(root.peerDependencies || {}).map((dep) => ['peer', dep]),
       ...Object.values(root.bundledDependencies || {}).map((dep) => ['bundled', dep]),
-    ].forEach(([rel, dep]) =>
-      postProcessGraph({
+    ].forEach(([rel, dep]) => {
+      const newFlags = {
+        ...(rootFlags.prod && {prod: true}),
+        ...((rootFlags.dev || rel === 'dev') && {dev: true}),
+        ...((rootFlags.optional || rel === 'optional') && {optional: true}),
+        ...((rootFlags.peer || rel === 'peer') && {peer: true}),
+        ...((rootFlags.bundled || rel === 'bundled') && {bundled: true}),
+      };
+      return postProcessGraph({
         root: dep,
         processedNodes,
-        flags: {
-          ...(root.flags.prod && {prod: true}),
-          ...((root.flags.dev || rel === 'dev') && {dev: true}),
-          ...((root.flags.optional || rel === 'optional') && {optional: true}),
-          ...((root.flags.peer || rel === 'peer') && {peer: true}),
-          ...((root.flags.bundled || rel === 'bundled') && {bundled: true}),
-        },
+        flags: newFlags,
         depth: depth + 1,
-      }),
-    );
+      })
+    });
   }
 
   return root;
