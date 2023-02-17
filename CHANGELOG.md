@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.1](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.15.0...utils-v1.15.1) (2023-02-17)
+
+
+### Bug Fixes
+
+* labeling when the dep graph has cycles ([cb89eb1](https://github.com/sandworm-hq/sandworm-utils/commit/cb89eb113b21de20f4a90b854fe8346c8880e4c5))
+
 ## [1.15.0](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.14.0...utils-v1.15.0) (2023-02-14)
 
 
