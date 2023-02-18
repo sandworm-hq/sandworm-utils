@@ -301,7 +301,7 @@ const getRegistryDataMultiple = async (packages) => {
         const prevData = await agg;
         const globalJobIndex = threadIndex * jobCount + jobIndex;
 
-        if (globalJobIndex <= packages.length) {
+        if (globalJobIndex < packages.length) {
           try {
             const {name, version} = packages[globalJobIndex];
             const packageData = await getRegistryData(name, version);
