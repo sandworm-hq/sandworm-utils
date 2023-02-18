@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.2](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.15.1...utils-v1.15.2) (2023-02-18)
+
+
+### Bug Fixes
+
+* invalid extra call to registry ([cbe5f69](https://github.com/sandworm-hq/sandworm-utils/commit/cbe5f692bf20c2ad65f998af0121271de1d7ff9a))
+
 ## [1.15.1](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.15.0...utils-v1.15.1) (2023-02-17)
 
 
