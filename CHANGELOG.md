@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.0](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.15.2...utils-v1.16.0) (2023-02-22)
+
+
+### Features
+
+* add `latestVersion` to graph package data ([2237884](https://github.com/sandworm-hq/sandworm-utils/commit/2237884065454beaa8b1236c6344e9f23c29a8df))
+
 ## [1.15.2](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.15.1...utils-v1.15.2) (2023-02-18)
 
 
