@@ -230,6 +230,7 @@ const addDependencyGraphData = ({root, processedNodes = [], packageData = []}) =
         }),
         // eslint-disable-next-line no-underscore-dangle
         ...(currentPackageData._npmUser && {publisher: currentPackageData._npmUser}),
+        ...(currentPackageData['dist-tags'] && {latestVersion: currentPackageData['dist-tags'].latest}),
         ...(license && {license}),
       });
     }
