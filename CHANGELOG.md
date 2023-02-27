@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.17.0](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.16.0...utils-v1.17.0) (2023-02-27)
+
+
+### Features
+
+* move graph code to audit lib ([dd751c6](https://github.com/sandworm-hq/sandworm-utils/commit/dd751c668bada3d784c93edd88ea1fc6fe1f9d66))
+
 ## [1.16.0](https://github.com/sandworm-hq/sandworm-utils/compare/utils-v1.15.2...utils-v1.16.0) (2023-02-22)
 
 
